@@ -6,13 +6,17 @@ function Header() {
         <header className="header">
             <ul className='header__ul'>
                 <li className='header__li'>
-                    Команда
+                    <a href="#Team" className='header__li-link'>
+                        Команда
+                    </a>
                 </li>
                 <li className='header__li'>
                     Наши работы
                 </li>
                 <li className='header__li'>
-                    Контакты
+                    <a href="#Contacts" className='header__li-link'>
+                        Контакты
+                    </a>
                 </li>
             </ul>
         </header>

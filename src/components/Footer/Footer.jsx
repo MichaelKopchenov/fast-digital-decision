@@ -6,7 +6,7 @@ import './Footer.css'
 
 function Footer() {
     return (
-        <footer className="footer">
+        <footer className="footer" id='Contacts'>
             <h2 className='footer-title'>
                 Контакты
             </h2>

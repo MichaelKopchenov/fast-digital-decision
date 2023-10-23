@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 525px;
+    min-height: 600px;
     background-image: url(../../images/back.svg);
     background-size: cover;
 }

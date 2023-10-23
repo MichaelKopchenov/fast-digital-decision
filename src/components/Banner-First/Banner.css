@@ -1,7 +1,7 @@
 .banner {
     margin: 0 auto;
     background-color: rgba(6, 41, 61, 1);
-    min-height: 275px;
+    min-height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;

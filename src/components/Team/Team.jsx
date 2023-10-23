@@ -7,7 +7,7 @@ import './Team.css';
 
 function Team() {
     return (
-        <section className='team'>
+        <section className='team' id='Team'>
             <div className='team__container'>
                 <div className='team__container-box'>
                     <div className='team__container-box-card'>

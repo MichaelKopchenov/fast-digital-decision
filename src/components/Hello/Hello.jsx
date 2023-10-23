@@ -3,7 +3,7 @@ import './Hello.css';
 
 function Hello() {
     return (
-        <section className='hello'>
+        <section className='hello' id='Hello'>
             <h1 className='hello__title'>
                 Fast Digital
             </h1>

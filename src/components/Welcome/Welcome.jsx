@@ -3,7 +3,7 @@ import './Welcome.css'
 
 function Welcome() {
     return (
-        <section className='welcome'>
+        <section className='welcome' id='Welcome'>
             <ul className='welcome__ul'>
                 <li className='welcome__li'>
                 Добро пожаловать в мир профессиональных IT-решений!
