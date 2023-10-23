@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/fast-digital-decision/static/css/main.9e4a4eb6.css",
-    "main.js": "/fast-digital-decision/static/js/main.982302d1.js",
+    "main.css": "/fast-digital-decision/static/css/main.30d2029f.css",
+    "main.js": "/fast-digital-decision/static/js/main.adedb8db.js",
     "static/js/787.355f960c.chunk.js": "/fast-digital-decision/static/js/787.355f960c.chunk.js",
     "static/media/back.svg": "/fast-digital-decision/static/media/back.40259c605a52fe17d928.svg",
     "static/media/PlayfairDisplay-VariableFont_wght.ttf": "/fast-digital-decision/static/media/PlayfairDisplay-VariableFont_wght.20240034b80f50c3ad00.ttf",
@@ -13,21 +13,18 @@
     "static/media/Inter-Regular.woff2": "/fast-digital-decision/static/media/Inter-Regular.bd097ceff83f90802a12.woff2",
     "static/media/Alexey.png": "/fast-digital-decision/static/media/Alexey.baf1fa696538d2270fd3.png",
     "static/media/Sergey.png": "/fast-digital-decision/static/media/Sergey.ee2dfa1159e3261c9736.png",
-    "static/media/logovk.png": "/fast-digital-decision/static/media/logovk.7b641dbf0ed1118ac5d5.png",
     "static/media/Vlad.png": "/fast-digital-decision/static/media/Vlad.6f37d2b668edb9687088.png",
     "static/media/Michael.png": "/fast-digital-decision/static/media/Michael.e764968fd4af769cb4ef.png",
     "static/media/BuyanThin.ttf": "/fast-digital-decision/static/media/BuyanThin.0e0ceef676bd2d0915b0.ttf",
-    "static/media/logotel.png": "/fast-digital-decision/static/media/logotel.ca3bec872e1d65bdd358.png",
     "static/media/BuyanRegular.ttf": "/fast-digital-decision/static/media/BuyanRegular.5c1856c3045c01b9ec35.ttf",
     "static/media/BuyanBold.ttf": "/fast-digital-decision/static/media/BuyanBold.3fd5957c1724d2506fc4.ttf",
-    "static/media/logot.jpg": "/fast-digital-decision/static/media/logot.0455cf5f36b4a2ffafea.jpg",
     "index.html": "/fast-digital-decision/index.html",
-    "main.9e4a4eb6.css.map": "/fast-digital-decision/static/css/main.9e4a4eb6.css.map",
-    "main.982302d1.js.map": "/fast-digital-decision/static/js/main.982302d1.js.map",
+    "main.30d2029f.css.map": "/fast-digital-decision/static/css/main.30d2029f.css.map",
+    "main.adedb8db.js.map": "/fast-digital-decision/static/js/main.adedb8db.js.map",
     "787.355f960c.chunk.js.map": "/fast-digital-decision/static/js/787.355f960c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9e4a4eb6.css",
-    "static/js/main.982302d1.js"
+    "static/css/main.30d2029f.css",
+    "static/js/main.adedb8db.js"
   ]
 }
