@@ -1,22 +1,65 @@
 import React from 'react';
 import LogoVk from '../../images/logovk.png';
-import LogoT from '../../images/logot.jpg';
-import LogoTel from '../../images/logotel.png';
+import LogoT from '../../images/logot.png';
+import Logowa from '../../images/logowa.png';
 import './Footer.css'
 
 function Footer() {
     return (
         <footer className="footer">
+            <h2 className='footer-title'>
+                Контакты
+            </h2>
+            <h3 className='footer__subtitle'>
+                Телефон <span className='footer__subtitle-number'>
+                            +7 499 322 76 68
+                        </span>
+            </h3>
             <ul className='footer__ul'>
                 <li className='footer__li'>
-                    <img src={LogoVk} alt="Вкнотакте"/><a href="https://vk.com/" target='_blank' rel="noreferrer">Вкнонтакте</a>
+                    <img 
+                        src={LogoVk} 
+                        alt="Вкнотакте" 
+                        className='footer__li-ico'
+                    />
+                    <a 
+                        href="https://vk.com/" 
+                        target='_blank' 
+                        rel="noreferrer"
+                        className='footer__li-link'
+                    >
+                        VK
+                    </a>
                 </li>
                 <li className='footer__li'>
-                    <img src={LogoT} alt="Телеграм"/><a href="https://t.me/" target='_blank' rel="noreferrer">Телеграм</a>
+                    <img 
+                        src={LogoT} 
+                        alt="Телеграм" 
+                        className='footer__li-ico'
+                    />
+                    <a 
+                        href="https://t.me/" 
+                        target='_blank' 
+                        rel="noreferrer"
+                        className='footer__li-link'
+                    >
+                        Telegram
+                    </a>
                 </li>
                 <li className='footer__li'>
-                    <img src={LogoTel} alt="Телефон"/>
-                    <span className='footer__li-number'>7-999-999-99-99</span>
+                    <img 
+                        src={Logowa} 
+                        alt="Ватсап" 
+                        className='footer__li-ico'
+                    />
+                    <a 
+                        href="https://whatsapp.com/" 
+                        target='_blank' 
+                        rel="noreferrer"
+                        className='footer__li-link'
+                    >
+                        Whats'App
+                    </a>
                 </li>
             </ul>
         </footer>
