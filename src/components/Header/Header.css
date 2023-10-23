@@ -1,0 +1,19 @@
+.header {
+    max-width: 100%;
+    max-height: 60px;
+    background: rgb(0,0,0);
+}
+
+.header__ul {
+    display: flex;
+    margin: 29px auto 0;
+}
+
+.header__li {
+    display: inline-flex;
+    margin: 0 auto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21.33px;
+    color: rgba(255, 255, 255, .8);
+}

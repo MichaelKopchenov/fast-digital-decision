@@ -1,0 +1,25 @@
+.banner {
+    margin: 0 auto;
+    background-color: rgba(6, 41, 61, 1);
+    min-height: 275px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner__title {
+    background: linear-gradient(to left,
+            rgba(188, 7, 10, 0.8),
+            rgba(188, 7, 10, 0.8),
+            rgba(63, 157, 210, 0.8),
+            rgba(63, 157, 210, 0.8));
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: .24em;
+    max-height: 54px;
+    margin: 0;
+    text-align: center;
+}

@@ -1,0 +1,44 @@
+.hello {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    min-height: 740px;
+    background-image: url(../../images/back.svg);
+    background-size: cover;
+    position: relative;
+}
+
+.hello::before {    
+    content: "";
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.6;
+}
+
+.hello__title {
+    margin: 46px auto 0;
+    color: rgba(77, 189, 252, 1);
+    font-size: 96px;
+    font-weight: 500;
+    line-height: 48px;
+    letter-spacing: calc(1em / 5);
+    text-transform: uppercase;
+}
+
+.hello__title-span {
+    margin: 25px auto 0;
+    color: rgba(221, 29, 29, 1);
+}
+
+.hello__subtitle {
+    margin: 46px auto 0;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: .12em;
+}

@@ -1,0 +1,32 @@
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 525px;
+    background-image: url(../../images/back.svg);
+    background-size: cover;
+}
+
+.about__container {
+    display: flex;
+}
+
+.about__container-grid {
+    margin-right: 30px;
+}
+
+.about__container-grid:last-child {
+    margin-right: 0;
+}
+
+.about__container-grid-ul {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.about__container-grid-ul-li {
+    font-size: 18px;
+    line-height: 60px;
+    letter-spacing: .05em;
+}
