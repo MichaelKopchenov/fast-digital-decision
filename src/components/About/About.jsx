@@ -1,5 +1,19 @@
 import React from 'react';
-import './About.css'
+import {
+    ABOUT_TEXT_ONE,
+    ABOUT_TEXT_TWO,
+    ABOUT_TEXT_THREE,
+    ABOUT_TEXT_FOUR,
+    ABOUT_TEXT_FIVE,
+    ABOUT_TEXT_SIX,
+    ABOUT_TEXT_SEVEN,
+    ABOUT_TEXT_EIGHT,
+    ABOUT_TEXT_NINE,
+    ABOUT_TEXT_TEN,
+    ABOUT_TEXT_ELEWEN,
+    ABOUT_TEXT_TWELVE
+} from '../../utils/constants';
+import './About.css';
 
 function About() {
     return (
@@ -8,54 +22,54 @@ function About() {
                 <div className='about__container-grid'>
                     <ul className='about__container-grid-ul'>
                         <li className='about__container-grid-ul-li'>
-                            1. Веб-разработка высшего класса:
+                            {ABOUT_TEXT_ONE}
                         </li>
                         <li className='about__container-grid-ul-li'>
-                            Стильные сайты, выделяющие ваш бренд среди других.
+                            {ABOUT_TEXT_TWO}
                         </li>
                         <li className='about__container-grid-ul-li'>
-                            Инновации для отличной производительности.
+                            {ABOUT_TEXT_THREE}
                         </li>
                         <li className='about__container-grid-ul-li'>
-                            Гибкие и масштабируемые решения.
-                        </li>
-                    </ul>
-                </div>
-                <div className='about__container-grid'>
-                    <ul className='about__container-grid-ul'>
-                        <li className='about__container-grid-ul-li'>
-                            2. Оптимизация производительности:
-                        </li>
-                        <li className='about__container-grid-ul-li'>
-                            Максимальная скорость загрузки и улучшенная работа.
-                        </li>
-                        <li className='about__container-grid-ul-li'>
-                            Продвинутая безопасность и конфиденциальность.
-                        </li>
-                        <li className='about__container-grid-ul-li'>
-                            Постоянный мониторинг и обновления.
+                            {ABOUT_TEXT_FOUR}
                         </li>
                     </ul>
                 </div>
                 <div className='about__container-grid'>
                     <ul className='about__container-grid-ul'>
                         <li className='about__container-grid-ul-li'>
-                            3. Индивидуальные решения под ключ:
+                            {ABOUT_TEXT_FIVE}
                         </li>
                         <li className='about__container-grid-ul-li'>
-                            Тщательный анализ для уникальных решений.
+                            {ABOUT_TEXT_SIX}
                         </li>
                         <li className='about__container-grid-ul-li'>
-                            Персонализированный дизайн и функциональность.
+                            {ABOUT_TEXT_SEVEN}
                         </li>
                         <li className='about__container-grid-ul-li'>
-                            Поддержка и доработки по мере развития.
+                            {ABOUT_TEXT_EIGHT}
+                        </li>
+                    </ul>
+                </div>
+                <div className='about__container-grid'>
+                    <ul className='about__container-grid-ul'>
+                        <li className='about__container-grid-ul-li'>
+                            {ABOUT_TEXT_NINE}
+                        </li>
+                        <li className='about__container-grid-ul-li'>
+                            {ABOUT_TEXT_TEN}
+                        </li>
+                        <li className='about__container-grid-ul-li'>
+                            {ABOUT_TEXT_ELEWEN}
+                        </li>
+                        <li className='about__container-grid-ul-li'>
+                            {ABOUT_TEXT_TWELVE}
                         </li>
                     </ul>
                 </div>
             </div>
         </section>
     );
-}
+};
 
 export default About;

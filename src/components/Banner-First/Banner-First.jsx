@@ -1,14 +1,15 @@
 import React from 'react';
+import { BANNER_TEXT_ONE } from '../../utils/constants';
 import './Banner.css';
 
 function BannerFirst() {
     return (
         <section className='banner'>
             <h2 className='banner__title'>
-            Ваш бизнес — наше вдохновение! Ваш успех — наша цель!
+            {BANNER_TEXT_ONE}
             </h2>
         </section>
     );
-}
+};
 
 export default BannerFirst;

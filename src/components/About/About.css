@@ -30,3 +30,33 @@
     line-height: 60px;
     letter-spacing: .05em;
 }
+
+.about__container-grid-ul-li:nth-child(1) {
+    font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+    .about__container {
+        margin: 0 auto;
+        display: grid;
+    }
+    .about__container-grid {
+        margin: 15px auto 0;
+        text-align: center;
+    }
+    .about__container-grid:last-child {
+        margin: 15px auto 0;
+    }
+    .about__container-grid-ul-li {
+        line-height: 50px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .about {
+        min-height: 400px;
+    }
+    .about__container-grid {
+        margin-left: 10px;
+    }
+}

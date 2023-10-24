@@ -2,17 +2,25 @@ import React from 'react';
 import LogoVk from '../../images/logovk.png';
 import LogoT from '../../images/logot.png';
 import Logowa from '../../images/logowa.png';
-import './Footer.css'
+import {
+    CONTACTS,
+    TELEFHONE,
+    NUMBER,
+    VK,
+    WHATSAPP,
+    TELEGRAM
+} from '../../utils/constants';
+import './Footer.css';
 
 function Footer() {
     return (
         <footer className="footer" id='Contacts'>
             <h2 className='footer-title'>
-                Контакты
+                {CONTACTS}
             </h2>
             <h3 className='footer__subtitle'>
-                Телефон <span className='footer__subtitle-number'>
-                            +7 499 322 76 68
+                {TELEFHONE} <span className='footer__subtitle-number'>
+                            {NUMBER}
                         </span>
             </h3>
             <ul className='footer__ul'>
@@ -28,22 +36,7 @@ function Footer() {
                         rel="noreferrer"
                         className='footer__li-link'
                     >
-                        VK
-                    </a>
-                </li>
-                <li className='footer__li'>
-                    <img 
-                        src={LogoT} 
-                        alt="Телеграм" 
-                        className='footer__li-ico'
-                    />
-                    <a 
-                        href="https://t.me/" 
-                        target='_blank' 
-                        rel="noreferrer"
-                        className='footer__li-link'
-                    >
-                        Telegram
+                        {VK}
                     </a>
                 </li>
                 <li className='footer__li'>
@@ -58,12 +51,27 @@ function Footer() {
                         rel="noreferrer"
                         className='footer__li-link'
                     >
-                        Whats'App
+                        {WHATSAPP}
+                    </a>
+                </li>
+                <li className='footer__li'>
+                    <img 
+                        src={LogoT} 
+                        alt="Телеграм" 
+                        className='footer__li-ico'
+                    />
+                    <a 
+                        href="https://t.me/" 
+                        target='_blank' 
+                        rel="noreferrer"
+                        className='footer__li-link'
+                    >
+                        {TELEGRAM}
                     </a>
                 </li>
             </ul>
         </footer>
     );
-}
+};
 
 export default Footer;
