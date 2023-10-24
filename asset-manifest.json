@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/fast-digital-decision/static/css/main.ed82ef5d.css",
-    "main.js": "/fast-digital-decision/static/js/main.6362be63.js",
+    "main.css": "/fast-digital-decision/static/css/main.81b2e3ce.css",
+    "main.js": "/fast-digital-decision/static/js/main.f700f64c.js",
     "static/js/787.355f960c.chunk.js": "/fast-digital-decision/static/js/787.355f960c.chunk.js",
     "static/media/back.svg": "/fast-digital-decision/static/media/back.40259c605a52fe17d928.svg",
     "static/media/PlayfairDisplay-VariableFont_wght.ttf": "/fast-digital-decision/static/media/PlayfairDisplay-VariableFont_wght.20240034b80f50c3ad00.ttf",
@@ -19,12 +19,12 @@
     "static/media/BuyanRegular.ttf": "/fast-digital-decision/static/media/BuyanRegular.5c1856c3045c01b9ec35.ttf",
     "static/media/BuyanBold.ttf": "/fast-digital-decision/static/media/BuyanBold.3fd5957c1724d2506fc4.ttf",
     "index.html": "/fast-digital-decision/index.html",
-    "main.ed82ef5d.css.map": "/fast-digital-decision/static/css/main.ed82ef5d.css.map",
-    "main.6362be63.js.map": "/fast-digital-decision/static/js/main.6362be63.js.map",
+    "main.81b2e3ce.css.map": "/fast-digital-decision/static/css/main.81b2e3ce.css.map",
+    "main.f700f64c.js.map": "/fast-digital-decision/static/js/main.f700f64c.js.map",
     "787.355f960c.chunk.js.map": "/fast-digital-decision/static/js/787.355f960c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ed82ef5d.css",
-    "static/js/main.6362be63.js"
+    "static/css/main.81b2e3ce.css",
+    "static/js/main.f700f64c.js"
   ]
 }
