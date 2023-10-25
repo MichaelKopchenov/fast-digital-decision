@@ -1,6 +1,6 @@
 .welcome {
     margin: 0 auto;
-    min-height: 600px;
+    min-height: 525px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,6 +12,7 @@
     list-style: none;
     margin: 0 auto;
     padding: 0;
+    max-width: 700px;
 }
 
 .welcome__li {
@@ -19,7 +20,7 @@
     line-height: 60px;
     font-weight: 500;
     text-align: center;
-    letter-spacing: calc(1em / 3);
+    letter-spacing: .015em;
     padding: 0 10px 0;
 }
 
@@ -28,7 +29,7 @@
         min-height: 400px;
     }
     .welcome__li {
-        line-height: 50px;
-        letter-spacing: calc(1em / 4);
+        line-height: 60px;
+        letter-spacing: .015em;
     }
 }

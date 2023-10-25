@@ -8,11 +8,63 @@ import {
     NUMBER,
     VK,
     WHATSAPP,
-    TELEGRAM
+    TELEGRAM,
+    URL_VK,
+    URL_WHATSAPP,
+    URL_TELEGRAM
 } from '../../utils/constants';
 import './Footer.css';
 
 function Footer() {
+    window.onload = function () {
+        const btnUp = {
+            el: document.querySelector('.btn-up'),
+            scrolling: false,
+            show() {
+              if (this.el.classList.contains('btn-up_hide') && !this.el.classList.contains('btn-up_hiding')) {
+                this.el.classList.remove('btn-up_hide');
+                this.el.classList.add('btn-up_hiding');
+                window.setTimeout(() => {
+                  this.el.classList.remove('btn-up_hiding');
+                }, 300);
+              }
+            },
+            hide() {
+              if (!this.el.classList.contains('btn-up_hide') && !this.el.classList.contains('btn-up_hiding')) {
+                this.el.classList.add('btn-up_hiding');
+                window.setTimeout(() => {
+                  this.el.classList.add('btn-up_hide');
+                  this.el.classList.remove('btn-up_hiding');
+                }, 300);
+              }
+            },
+            addEventListener() {
+              window.addEventListener('scroll', () => {
+                const scrollY = window.scrollY || document.documentElement.scrollTop;
+                if (this.scrolling && scrollY > 0) {
+                  return;
+                }
+                this.scrolling = false;
+                if (scrollY > 400) {
+                  this.show();
+                } else {
+                  this.hide();
+                }
+              });
+              document.querySelector('.btn-up').onclick = () => {
+                this.scrolling = true;
+                this.hide();
+                window.scrollTo({
+                  top: 0,
+                  left: 0,
+                  behavior: 'smooth'
+                });
+              }
+            }
+          }
+          
+        btnUp.addEventListener();
+    }
     return (
         <footer className="footer" id='Contacts'>
             <h2 className='footer-title'>
@@ -31,7 +83,7 @@ function Footer() {
                         className='footer__li-ico'
                     />
                     <a 
-                        href="https://vk.com/" 
+                        href={URL_VK} 
                         target='_blank' 
                         rel="noreferrer"
                         className='footer__li-link'
@@ -46,7 +98,7 @@ function Footer() {
                         className='footer__li-ico'
                     />
                     <a 
-                        href="https://whatsapp.com/" 
+                        href={URL_WHATSAPP} 
                         target='_blank' 
                         rel="noreferrer"
                         className='footer__li-link'
@@ -61,7 +113,7 @@ function Footer() {
                         className='footer__li-ico'
                     />
                     <a 
-                        href="https://t.me/" 
+                        href={URL_TELEGRAM} 
                         target='_blank' 
                         rel="noreferrer"
                         className='footer__li-link'
@@ -70,6 +122,7 @@ function Footer() {
                     </a>
                 </li>
             </ul>
+            <div className='btn-up btn-up_hide' />
         </footer>
     );
 };

@@ -3,13 +3,13 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    min-height: 890px;
+    min-height: 740px;
     background-image: url(../../images/back.svg);
     background-size: cover;
     position: relative;
 }
 
-.hello::before {    
+/* .hello::before {    
     content: "";
     background-size: cover;
     position: absolute;
@@ -18,9 +18,10 @@
     bottom: 0px;
     left: 0px;
     opacity: 0.6;
-}
+} */
 
 .hello__title {
+    font-family: 'Buyan';
     margin: 46px auto 0;
     color: rgba(77, 189, 252, 1);
     font-size: 96px;
@@ -40,7 +41,7 @@
     font-weight: 800;
     font-size: 24px;
     line-height: 36px;
-    letter-spacing: .12em;
+    letter-spacing: .015em;
 }
 
 @media screen and (max-width: 768px) {

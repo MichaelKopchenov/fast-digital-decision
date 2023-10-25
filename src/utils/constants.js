@@ -32,10 +32,14 @@ const HELLO_TEXT_TITLE = 'Fast Digital';
 const HELLO_TEXT_SPAN = 'Decisions';
 const HELLO_TEXT_SUBTITLE = 'Быстрые цифровые решения для вашего бизнеса';
 
-const TEAM_VALD = 'Владислав, UI/Ux designer';
-const TEAM_MICHAEL = 'Михаил, Web-developer';
-const TEAM_SERGEY = 'Сергей, Digital marketing';
-const TEAM_ALEXEY = 'Алексей, Product/Project manager';
+const TEAM_VALD = 'Владислав';
+const TEAM_VLAD_PROF = 'UI/Ux designer'
+const TEAM_MICHAEL = 'Михаил';
+const TEAM_MICHAEL_PROF = 'Web-developer'
+const TEAM_SERGEY = 'Сергей';
+const TEAM_SERGEY_PROF = 'Digital marketing';
+const TEAM_ALEXEY = 'Алексей';
+const TEAM_ALEXEY_PROF = 'Product/Project manager'
 const TEAM_TEXT_ONE = 'Мы — команда Pro в области заказной разработки.';
 const TEAM_TEXT_TWO = 'Потребности клиентов наш основной приоритет.';
 const TEAM_TEXT_THREE = 'Наши знания и навыки, помогут вашему успеху.';
@@ -43,6 +47,10 @@ const TEAM_TEXT_THREE = 'Наши знания и навыки, помогут �
 const WELCOME_TEXT_ONE = 'Добро пожаловать в мир профессиональных IT-решений!';
 const WELCOME_TEXT_TWO = 'Мы — команда экспертов, готовых преобразить ваш онлайн-опыт.';
 const WELCOME_TEXT_THREE = 'Наши уникальные подходы и передовые технологии обеспечат ваш бизнес надежным фундаментом в цифровом пространстве.';
+
+const URL_VK = 'https://vk.com/';
+const URL_WHATSAPP = 'https://api.whatsapp.com/send/?phone=74993227668';
+const URL_TELEGRAM = 'https://t.me/FastDigitalDecisions';
 
 module.exports = {
     ABOUT_TEXT_ONE,
@@ -72,13 +80,20 @@ module.exports = {
     HELLO_TEXT_SPAN,
     HELLO_TEXT_SUBTITLE,
     TEAM_VALD,
+    TEAM_VLAD_PROF,
     TEAM_ALEXEY,
+    TEAM_ALEXEY_PROF,
     TEAM_MICHAEL,
+    TEAM_MICHAEL_PROF,
     TEAM_SERGEY,
+    TEAM_SERGEY_PROF,
     TEAM_TEXT_ONE,
     TEAM_TEXT_TWO,
     TEAM_TEXT_THREE,
     WELCOME_TEXT_ONE,
     WELCOME_TEXT_TWO,
-    WELCOME_TEXT_THREE
+    WELCOME_TEXT_THREE,
+    URL_VK,
+    URL_WHATSAPP,
+    URL_TELEGRAM
   }
