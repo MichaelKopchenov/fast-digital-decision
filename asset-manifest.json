@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/fast-digital-decision/static/css/main.b5f068f0.css",
+    "main.css": "/fast-digital-decision/static/css/main.cf267c04.css",
     "main.js": "/fast-digital-decision/static/js/main.6568ca5e.js",
     "static/js/787.355f960c.chunk.js": "/fast-digital-decision/static/js/787.355f960c.chunk.js",
     "static/media/back.svg": "/fast-digital-decision/static/media/back.40259c605a52fe17d928.svg",
@@ -22,12 +22,12 @@
     "static/media/BuyanRegular.ttf": "/fast-digital-decision/static/media/BuyanRegular.5c1856c3045c01b9ec35.ttf",
     "static/media/BuyanBold.ttf": "/fast-digital-decision/static/media/BuyanBold.3fd5957c1724d2506fc4.ttf",
     "index.html": "/fast-digital-decision/index.html",
-    "main.b5f068f0.css.map": "/fast-digital-decision/static/css/main.b5f068f0.css.map",
+    "main.cf267c04.css.map": "/fast-digital-decision/static/css/main.cf267c04.css.map",
     "main.6568ca5e.js.map": "/fast-digital-decision/static/js/main.6568ca5e.js.map",
     "787.355f960c.chunk.js.map": "/fast-digital-decision/static/js/787.355f960c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b5f068f0.css",
+    "static/css/main.cf267c04.css",
     "static/js/main.6568ca5e.js"
   ]
 }
