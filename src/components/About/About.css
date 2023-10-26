@@ -26,13 +26,15 @@
 }
 
 .about__container-grid-ul-li {
-    font-size: 18px;
-    line-height: 40px;
-    letter-spacing: .015em;
+    font-size: 12px;
+    line-height: 80px;
+    letter-spacing: .001em;
+    font-weight: 600;
 }
 
 .about__container-grid-ul-li:nth-child(1) {
-    font-weight: 700;
+    font-size: 18px;
+    font-weight: 800;
 }
 
 @media screen and (max-width: 768px) {

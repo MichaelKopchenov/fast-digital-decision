@@ -1,16 +1,16 @@
 import React from 'react';
-import LogoVk from '../../images/logovk.png';
+// import LogoVk from '../../images/logovk.png';
 import LogoT from '../../images/logot.png';
-import Logowa from '../../images/logowa.png';
+// import Logowa from '../../images/logowa.png';
 import {
     CONTACTS,
     TELEFHONE,
     NUMBER,
-    VK,
-    WHATSAPP,
+    // VK,
+    // WHATSAPP,
     TELEGRAM,
-    URL_VK,
-    URL_WHATSAPP,
+    // URL_VK,
+    // URL_WHATSAPP,
     URL_TELEGRAM
 } from '../../utils/constants';
 import './Footer.css';
@@ -76,7 +76,7 @@ function Footer() {
                         </span>
             </h3>
             <ul className='footer__ul'>
-                <li className='footer__li'>
+                {/* <li className='footer__li'>
                     <img 
                         src={LogoVk} 
                         alt="Вкнотакте" 
@@ -105,7 +105,7 @@ function Footer() {
                     >
                         {WHATSAPP}
                     </a>
-                </li>
+                </li> */}
                 <li className='footer__li'>
                     <img 
                         src={LogoT} 
