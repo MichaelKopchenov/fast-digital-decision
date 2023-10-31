@@ -13,7 +13,8 @@ const ABOUT_TEXT_TEN = '➤ Тщательный анализ для уника�
 const ABOUT_TEXT_ELEWEN = '➤ Персонализированный дизайн и функциональность;';
 const ABOUT_TEXT_TWELVE = '➤ Поддержка и доработки по мере развития.';
 
-const BANNER_TEXT_ONE = 'Ваш бизнес — наше вдохновение! Ваш успех — наша цель!';
+const BANNER_TEXT = 'Ваш успех — наша цель!'
+const BANNER_TEXT_ONE = 'Ваш бизнес — наше вдохновение!';
 const BANNER_TEXT_TWO = 'Ваш успех начинается здесь!';
 const BANNER_TEXT_THREE = 'Наши специалисты - ваша команда!';
 
@@ -65,6 +66,7 @@ module.exports = {
     ABOUT_TEXT_TEN,
     ABOUT_TEXT_ELEWEN,
     ABOUT_TEXT_TWELVE,
+    BANNER_TEXT,
     BANNER_TEXT_ONE,
     BANNER_TEXT_TWO,
     BANNER_TEXT_THREE,

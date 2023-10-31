@@ -6,6 +6,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .banner__title {
@@ -24,12 +25,13 @@
     max-height: 150px;
     margin: 0;
     text-align: center;
+    display: grid;
 }
 
 @media screen and (max-width: 768px) {
     .banner__title {
         max-width: 768px;
-        font-size: 20px;
+        font-size: 30px;
         line-height: 30px;
     }
 }
@@ -42,7 +44,8 @@
 
 @media screen and (max-width: 320px) {
     .banner__title {
-        letter-spacing: .15em;
+        letter-spacing: .30em;
         line-height: 30px;
+        font-size: 20px;
     }
 }

@@ -27,7 +27,7 @@
 
 .about__container-grid-ul-li {
     font-size: 12px;
-    line-height: 80px;
+    line-height: 60px;
     letter-spacing: .001em;
     font-weight: 600;
 }
@@ -37,9 +37,7 @@
     font-weight: 800;
 }
 
-
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .about__container {
         margin: 0 auto;
         display: grid;
@@ -65,5 +63,8 @@
     }
     .about__container-grid {
         margin-left: 10px;
+    }
+    .about__container-grid-ul-li {
+        line-height: 40px;
     }
 }
