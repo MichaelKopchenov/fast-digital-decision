@@ -1,0 +1,78 @@
+.hello {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    min-height: 100vh;
+    background-image: url(../../images/back.svg);
+    background-size: cover;
+    position: relative;
+    justify-content: center;
+}
+
+/* .hello::before {    
+    content: "";
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.6;
+} */
+
+.hello__title {
+    font-family: 'Buyan';
+    margin: 46px auto 0;
+    color: rgba(77, 189, 252, 1);
+    font-size: 96px;
+    font-weight: 500;
+    line-height: 48px;
+    letter-spacing: calc(1em / 5);
+    text-transform: uppercase;
+}
+
+.hello__title-span {
+    margin: 25px auto 0;
+    color: rgba(221, 29, 29, 1);
+}
+
+.hello__subtitle {
+    margin: 46px auto 0;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: .015em;
+}
+
+@media screen and (max-width: 768px) {
+    .hello {
+        min-height: 750px;
+    }
+    .hello__title {
+        max-width: 768px;
+        line-height: 75px;
+        letter-spacing: .18em;
+    }
+    .hello__title-span {
+        margin: 5px 0 0 10px;
+        font-size: 75px;
+        letter-spacing: .18em;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .hello {
+        min-height: 620px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .hello__title {
+        letter-spacing: .15em;
+    }
+    .hello__title-span {
+        margin: 0;
+        letter-spacing: .09em;
+    } 
+}

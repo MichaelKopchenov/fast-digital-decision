@@ -1,0 +1,107 @@
+.footer {
+    background-color: rgba(6, 41, 61, 1);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: .015em;
+    margin: 16px auto 0;
+}
+
+.footer__subtitle {
+    font-weight: 400;
+    letter-spacing: .015em;
+    margin: 13px auto 23;
+}
+
+.footer__subtitle-number {
+    font-weight: 400;
+}
+
+.footer__ul {
+    display: flex;
+    max-width: 250px;
+    margin: 0 auto 8px;
+    padding: 0;
+    list-style: none;
+    justify-content: center;
+}
+
+.footer__li {
+    display: flex;
+    flex-direction: column;
+    margin: 0 30px 0 0;
+    text-align: center;
+    align-items: center;
+}
+
+.footer__li:last-child {
+    margin-right: 0;
+}
+
+.footer__li-ico {
+    max-width: 68px;
+    max-height: 68px;
+}
+
+.footer__li-link {
+    text-decoration: none;
+    color: rgba(242, 244, 250);
+    margin-top: 8px;
+    letter-spacing: .015em;
+}
+
+.footer__li-link:hover {
+    text-decoration: underline;
+}
+
+.btn-up {
+    position: fixed;
+    background-color: #90260e;
+    right: 20px;
+    bottom: 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.15s ease-in-out, transform 0.3s ease-in-out;
+    color: #fff;
+    width: 68px;
+    height: 68px;
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .btn-up::before {
+    content: "";
+    width: 40px;
+    height: 40px;
+    background: transparent no-repeat center center;
+    background-size: 100% 100%;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%23fff' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z'/%3E%3C/svg%3E");
+  }
+  
+  .btn-up_hide {
+    display: none;
+  }
+  
+  .btn-up_hiding {
+    opacity: 0;
+  }
+  
+  @media (hover: hover) and (pointer: fine) {
+    .btn-up:hover {
+      background-color: #d12014; /* цвет заднего фона при наведении */
+    }
+  }
+
+  
+  

@@ -1,0 +1,48 @@
+.banner {
+    margin: 0 auto;
+    background-color: rgba(6, 41, 61, 1);
+    min-height: 100px;
+    max-width: 1280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner__title {
+    background: linear-gradient(to left,
+            rgba(188, 7, 10, 0.8),
+            rgba(188, 7, 10, 0.8),
+            rgba(63, 157, 210, 0.8),
+            rgba(63, 157, 210, 0.8));
+    -webkit-background-clip: text;
+    color: transparent;
+    font-family: 'Buyan';
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: .25em;
+    max-height: 150px;
+    margin: 0;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .banner__title {
+        max-width: 768px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .banner__title {
+        letter-spacing: .15em;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .banner__title {
+        letter-spacing: .15em;
+        line-height: 30px;
+    }
+}

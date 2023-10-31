@@ -1,0 +1,26 @@
+.header {
+    max-width: 100%;
+    max-height: 60px;
+}
+
+.header__ul {
+    display: flex;
+    margin: 29px auto 0;
+    padding: 0;
+}
+
+.header__li {
+    display: inline-flex;
+    margin: 0 auto;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21.33px;
+    color: rgba(255, 255, 255, .8);
+    
+}
+
+.header__li-link {
+    text-decoration: none;
+    color: rgba(255, 255, 255, .8);
+}
