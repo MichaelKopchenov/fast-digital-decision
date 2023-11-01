@@ -9,7 +9,7 @@ import './Header.css';
 
 function Header() {
     return (
-        <header className="header">
+        <header className="header" id='Header'>
             <ul className='header__ul'>
                 <li className='header__li'>
                     <a href="#Team" className='header__li-link'>
