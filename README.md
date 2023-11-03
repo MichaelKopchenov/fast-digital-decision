@@ -15,6 +15,51 @@
 
 * `npm run start` — запускает сервер
 
+## Команда
+
+<table>
+  <tr>
+    <th>
+        <center>
+        <img 
+            src="/src/images/Alexey.png" 
+            width="164" 
+            height="218"
+        />
+        </center>
+    </th>
+    <th>
+        <center>
+        <img 
+            src="/src/images/Vlad.png" 
+            width="164" 
+            height="218"
+        />
+        </center>
+    </th>
+    <th>
+        <center>
+        <img 
+            src="/src/images/Michael.png" 
+            width="164" 
+            height="218"
+        />
+        </center>
+    </th>
+  </tr>
+  <tr>
+    <td>
+        Червяков Алексей Андреевич</br> Product/Project manager
+    </td>
+    <td>
+        Кулагин Владислав Владимирович</br> UI/Ux designer
+    </td>
+    <td>
+        Копченов Михаил Викторович</br> Web-developer
+    </td>
+  </tr>
+</table>
+
 ## Ссылки
 
 Ниже указаны ссылки на GH-Pages, репозиторий, макет и финальный лендинг
@@ -23,30 +68,3 @@
 * [Репозиторий GitHub ©2023. Kopchenov Mikhail Victorovich](https://github.com/MichaelKopchenov/fast-digital-decision)
 * [GH-Pages FDD ©2023. Created by Kopchenov Mikhail Victorovich](https://michaelkopchenov.github.io/fast-digital-decision/)
 * [Fast Digital Decisions ©2023. Created by FDD Team](https://fast-dd.ru)
-
-## Команда
-
-<!-- <img src="/src/images/Alexey.png" width="164" height="218"/>
-
-* `Червяков Алексей - Product/Project manager`
-
-<img src="/src/images/Vlad.png" width="164" height="218"/>
-
-* `Кулагин Владислав - UI/Ux designer`
-
-<img src="/src/images/Michael.png" width="164" height="218"/>
-
-* `Копченов Михаил - Web-developer` -->
-
-<table width="100%">
-  <tr>
-    <th><center><img src="/src/images/Alexey.png" width="164" height="218"/></center></th>
-    <th><center><img src="/src/images/Vlad.png" width="164" height="218"/></center></th>
-    <th><center><img src="/src/images/Michael.png" width="164" height="218"/></center></th>
-  </tr>
-  <tr>
-    <td><center>Червяков Алексей</center> </br> <center>Product/Project manager</center></td>
-    <td><center>Кулагин Владислав</center> </br> <center>UI/Ux designer</center></td>
-    <td><center>Копченов Михаил</center> </br> <center>Web-developer</center></td>
-  </tr>
-</table>
