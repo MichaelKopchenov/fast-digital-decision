@@ -49,13 +49,19 @@
   </tr>
   <tr>
     <td>
+        <center>
         Червяков Алексей Андреевич</br> Product/Project manager
+        </center>
     </td>
     <td>
+    <center>
         Кулагин Владислав Владимирович</br> UI/Ux designer
+    </center>
     </td>
     <td>
+    <center>
         Копченов Михаил Викторович</br> Web-developer
+    </center>
     </td>
   </tr>
 </table>
