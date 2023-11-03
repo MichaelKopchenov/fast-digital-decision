@@ -26,8 +26,14 @@
 
 ### Команда
 
-* [Червяков Алексей - Product/Project manager](https://github.com/MichaelKopchenov/fast-digital-decision/blob/main/src/images/Alexey.png)
+<img src="/src/images/Alexey.png" width="164" height="218"/>
 
-* [Кулагин Владислав - UI/Ux designer](https://github.com/MichaelKopchenov/fast-digital-decision/blob/main/src/images/Vlad.png)
+* `Червяков Алексей - Product/Project manager`
 
-* [Копченов Михаил - Web-developer](https://github.com/MichaelKopchenov/fast-digital-decision/blob/main/src/images/Michael.png)
+<img src="/src/images/Vlad.png" width="164" height="218"/>
+
+* `Кулагин Владислав - UI/Ux designer`
+
+<img src="/src/images/Michael.png" width="164" height="218"/>
+
+* `Копченов Михаил - Web-developer`
