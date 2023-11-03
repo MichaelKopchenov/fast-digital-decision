@@ -2,7 +2,7 @@ import React from 'react';
 import AvatarVlad from '../../images/Vlad.png';
 import AvatarSergey from '../../images/Sergey.png';
 import AvatarAlexey from '../../images/Alexey.png';
-import AvatarMichael from '../../images/Michael.png';
+import AvatarMichael from '../../images/Michael3.png';
 import {
     TEAM_VALD,
     TEAM_VLAD_PROF,

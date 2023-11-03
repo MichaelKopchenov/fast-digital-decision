@@ -12,7 +12,7 @@ import './Footer.css';
 function Footer() {
   window.onscroll = function() {scrollFunction()};
 
-function scrollFunction() {
+  function scrollFunction() {
     if (document.body.scrollTop > 1600 || document.documentElement.scrollTop > 1600) {
         document.getElementById("footer__button-up").style.display = "flex";
     } else {
@@ -47,7 +47,12 @@ function scrollFunction() {
                 </li>
             </ul>
             <a href="#Header" id='footer__button-up'>
-              ⬆
+                <p className='footer__bitton-up_forvard'>
+                    ↑
+                </p>
+                <p className='footer__button-up_text'>
+                    Вернуться
+                </p>
             </a>
         </footer>
     );

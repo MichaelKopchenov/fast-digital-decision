@@ -86,7 +86,7 @@
         margin-top: 10px;
     }
     .team__container-box-ul {
-        margin: 15px auto 0;
+        margin: 15px 10px 0;
         order: 1;
     }
     .team__container-box-li {
@@ -96,6 +96,6 @@
 
 @media screen and (max-width: 320px) {
     .team__container-box-ul {
-        margin-top: 15px;
+        margin: 15px 13px;
     }
 }

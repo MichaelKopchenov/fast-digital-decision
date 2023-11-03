@@ -1,17 +1,17 @@
-const ABOUT_TEXT_ONE = '1. Веб-разработка высшего класса:';
-const ABOUT_TEXT_TWO = '➤ Стильные сайты, выделяющие ваш бренд среди других;';
-const ABOUT_TEXT_THREE = '➤ Инновации для отличной производительности;';
-const ABOUT_TEXT_FOUR = '➤ Гибкие и масштабируемые решения.';
+const ABOUT_TEXT_ONE = 'Веб-разработка высшего класса:';
+const ABOUT_TEXT_TWO = 'Стильные сайты, выделяющие ваш бренд среди других;';
+const ABOUT_TEXT_THREE = 'Инновации для отличной производительности;';
+const ABOUT_TEXT_FOUR = 'Гибкие и масштабируемые решения.';
 
-const ABOUT_TEXT_FIVE = '2. Оптимизация производительности:';
-const ABOUT_TEXT_SIX = '➤ Максимальная скорость загрузки и улучшенная работа;';
-const ABOUT_TEXT_SEVEN = '➤ Продвинутая безопасность и конфиденциальность;';
-const ABOUT_TEXT_EIGHT = '➤ Постоянный мониторинг и обновления.';
+const ABOUT_TEXT_FIVE = 'Оптимизация производительности:';
+const ABOUT_TEXT_SIX = 'Максимальная скорость загрузки и улучшенная работа;';
+const ABOUT_TEXT_SEVEN = 'Продвинутая безопасность и конфиденциальность;';
+const ABOUT_TEXT_EIGHT = 'Постоянный мониторинг и обновления.';
 
-const ABOUT_TEXT_NINE = '3. Индивидуальные решения под ключ:';
-const ABOUT_TEXT_TEN = '➤ Тщательный анализ для уникальных решений;';
-const ABOUT_TEXT_ELEWEN = '➤ Персонализированный дизайн и функциональность;';
-const ABOUT_TEXT_TWELVE = '➤ Поддержка и доработки по мере развития.';
+const ABOUT_TEXT_NINE = 'Индивидуальные решения под ключ:';
+const ABOUT_TEXT_TEN = 'Тщательный анализ для уникальных решений;';
+const ABOUT_TEXT_ELEWEN = 'Персонализированный дизайн и функциональность;';
+const ABOUT_TEXT_TWELVE = 'Поддержка и доработки по мере развития.';
 
 const BANNER_TEXT = 'Ваш успех — наша цель!'
 const BANNER_TEXT_ONE = 'Ваш бизнес — наше вдохновение!';
@@ -19,8 +19,8 @@ const BANNER_TEXT_TWO = 'Ваш успех начинается здесь!';
 const BANNER_TEXT_THREE = 'Наши специалисты - ваша команда!';
 
 const CONTACTS = 'Контакты';
-const TELEFHONE = 'Телефон';
-const NUMBER = '+7-499-322-76-68';
+const TELEFHONE = 'Телефон:';
+const NUMBER = '+7(499)322-76-68';
 
 const VK = 'VK';
 const WHATSAPP = "Whats'App";

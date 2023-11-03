@@ -29,7 +29,7 @@
         min-height: 400px;
     }
     .welcome__li {
-        line-height: 60px;
+        line-height: 40px;
         letter-spacing: .015em;
     }
 }
