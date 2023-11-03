@@ -38,15 +38,15 @@
 
 * `Копченов Михаил - Web-developer` -->
 
-<table>
+<table width="100%">
   <tr>
     <th><center><img src="/src/images/Alexey.png" width="164" height="218"/></center></th>
     <th><center><img src="/src/images/Vlad.png" width="164" height="218"/></center></th>
     <th><center><img src="/src/images/Michael.png" width="164" height="218"/></center></th>
   </tr>
   <tr>
-    <td>Червяков Алексей </br> Product/Project manager</td>
-    <td>Кулагин Владислав </br> UI/Ux designer</td>
-    <td>Копченов Михаил </br> Web-developer</td>
+    <td><center>Червяков Алексей </br> Product/Project manager</center></td>
+    <td><center>Кулагин Владислав </br> UI/Ux designer</center></td>
+    <td><center>Копченов Михаил </br> Web-developer</center></td>
   </tr>
 </table>
