@@ -15,7 +15,7 @@
 
 * `npm run start` — запускает сервер
 
-### Ссылки
+## Ссылки
 
 Ниже указаны ссылки на GH-Pages, репозиторий, макет и финальный лендинг
 
@@ -24,7 +24,7 @@
 * [GH-Pages FDD ©2023. Created by Kopchenov Mikhail Victorovich](https://michaelkopchenov.github.io/fast-digital-decision/)
 * [Fast Digital Decisions ©2023. Created by FDD Team](https://fast-dd.ru)
 
-### Команда
+## Команда
 
 <!-- <img src="/src/images/Alexey.png" width="164" height="218"/>
 
@@ -45,8 +45,8 @@
     <th><center><img src="/src/images/Michael.png" width="164" height="218"/></center></th>
   </tr>
   <tr>
-    <td>Червяков Алексей - Product/Project manager</td>
-    <td>Кулагин Владислав - UI/Ux designer</td>
-    <td>Копченов Михаил - Web-developer</td>
+    <td>Червяков Алексей </br> Product/Project manager</td>
+    <td>Кулагин Владислав </br> UI/Ux designer</td>
+    <td>Копченов Михаил </br> Web-developer</td>
   </tr>
 </table>
