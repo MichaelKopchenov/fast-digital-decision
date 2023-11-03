@@ -19,15 +19,15 @@
 
 Ниже указаны ссылки на GH-Pages, репозиторий, макет и финальный лендинг
 
-* [Макет сайта.](https://www.figma.com/file/L09nRWYgxzAtx0o2e672Zu/Untitled?type=design&node-id=0%3A1&mode=design&t=Yrcs1s27Jw2kOsMV-1)
-* [GitHub ©2023. Kopchenov Mikhail Victorovich](https://github.com/MichaelKopchenov/fast-digital-decision)
-* [Fast Digital Decisions ©2023. Created by Kopchenov Mikhail Victorovich](https://michaelkopchenov.github.io/fast-digital-decision/)
+* [Макет сайта](https://www.figma.com/file/L09nRWYgxzAtx0o2e672Zu/Untitled?type=design&node-id=0%3A1&mode=design&t=Yrcs1s27Jw2kOsMV-1)
+* [Репозиторий GitHub ©2023. Kopchenov Mikhail Victorovich](https://github.com/MichaelKopchenov/fast-digital-decision)
+* [GH-Pages FDD ©2023. Created by Kopchenov Mikhail Victorovich](https://michaelkopchenov.github.io/fast-digital-decision/)
 * [Fast Digital Decisions ©2023. Created by FDD Team](https://fast-dd.ru)
 
 ### Команда
 
-* [Червяков Алексей](/src/images/Alexey%202.png)
+* [Червяков Алексей - Product/Project manager](https://github.com/MichaelKopchenov/fast-digital-decision/blob/main/src/images/Alexey.png)
 
-* [Кулагин Владислав](/src/images/Vlad%202.png)
+* [Кулагин Владислав - UI/Ux designer](https://github.com/MichaelKopchenov/fast-digital-decision/blob/main/src/images/Vlad.png)
 
-* [Копченов Михаил](/src/images/Michael.png)
+* [Копченов Михаил - Web-developer](https://github.com/MichaelKopchenov/fast-digital-decision/blob/main/src/images/Michael.png)
