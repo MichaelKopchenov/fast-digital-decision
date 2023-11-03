@@ -45,8 +45,8 @@
     <th><center><img src="/src/images/Michael.png" width="164" height="218"/></center></th>
   </tr>
   <tr>
-    <td><center>Червяков Алексей </br> Product/Project manager</center></td>
-    <td><center>Кулагин Владислав </br> UI/Ux designer</center></td>
-    <td><center>Копченов Михаил </br> Web-developer</center></td>
+    <td><center>Червяков Алексей</center> </br> <center>Product/Project manager</center></td>
+    <td><center>Кулагин Владислав</center> </br> <center>UI/Ux designer</center></td>
+    <td><center>Копченов Михаил</center> </br> <center>Web-developer</center></td>
   </tr>
 </table>
