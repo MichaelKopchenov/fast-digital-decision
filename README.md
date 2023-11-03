@@ -26,14 +26,27 @@
 
 ### Команда
 
-<img src="/src/images/Alexey.png" width="164" height="218"/>
+<!-- <img src="/src/images/Alexey.png" width="164" height="218"/>
 
 * `Червяков Алексей - Product/Project manager`
 
-<center><img src="/src/images/Vlad.png" width="164" height="218"/></center>
+<img src="/src/images/Vlad.png" width="164" height="218"/>
 
 * `Кулагин Владислав - UI/Ux designer`
 
 <img src="/src/images/Michael.png" width="164" height="218"/>
 
-* `Копченов Михаил - Web-developer`
+* `Копченов Михаил - Web-developer` -->
+
+<table>
+  <tr>
+    <th><center><img src="/src/images/Alexey.png" width="164" height="218"/></center></th>
+    <th><center><img src="/src/images/Vlad.png" width="164" height="218"/></center></th>
+    <th><center><img src="/src/images/Michael.png" width="164" height="218"/></center></th>
+  </tr>
+  <tr>
+    <td>Червяков Алексей - Product/Project manager</td>
+    <td>Кулагин Владислав - UI/Ux designer</td>
+    <td>Копченов Михаил - Web-developer</td>
+  </tr>
+</table>
