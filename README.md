@@ -29,8 +29,8 @@
 <img src="/src/images/Alexey.png" width="164" height="218"/>
 
 * `Червяков Алексей - Product/Project manager`
-:--------------------------------------------------------:
-<img src="/src/images/Vlad.png" width="164" height="218"/>
+
+<center><img src="/src/images/Vlad.png" width="164" height="218"/></center>
 
 * `Кулагин Владислав - UI/Ux designer`
 
