@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import LogoT from '../../images/logot.png';
 import {
@@ -46,7 +47,7 @@ function Footer() {
                     </a>
                 </li>
             </ul>
-            <a href="#Header" id='footer__button-up'>
+            <a href="#" id='footer__button-up'>
                 <p className='footer__bitton-up_forvard'>
                     ↑
                 </p>
