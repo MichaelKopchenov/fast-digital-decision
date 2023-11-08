@@ -4,7 +4,7 @@
     min-width: 320px;
     min-height: 100vh;
     margin: 0 auto;
-    font-family: 'OpenSans';
+    font-family: 'OpenSans', 'Buyan';
     color: rgba(242, 244, 250);
     text-rendering: optimizeLegibility;
     scroll-behavior: smooth;
