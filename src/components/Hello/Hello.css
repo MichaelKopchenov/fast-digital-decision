@@ -1,3 +1,22 @@
+@keyframes typing-title {
+    from { width: 0 }
+    to { width: 100% }
+}
+@keyframes typing-span {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+@keyframes blink-caret-title {
+    from { border-color: transparent }
+    to { border-color: rgba(77, 189, 252, 1) }
+}
+  
+@keyframes blink-caret-span {
+    from { border-color: transparent }
+    to { border-color: rgba(221, 29, 29, 1) }
+}
+
 .hello {
     margin: auto;
     display: flex;
@@ -10,52 +29,35 @@
     justify-content: center;
 }
 
-/* .hello::before {    
-    content: "";
-    background-size: cover;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0.6;
-} */
-
-.hello__title {
-    display: flex;
-    flex-direction: column;
+.hello__text {
     font-family: 'Buyan';
     margin: 0 auto;
-    color: rgba(77, 189, 252, 1);
     font-size: 96px;
     font-weight: 500;
     line-height: 75px;
     letter-spacing: calc(1em / 5);
-    text-transform: uppercase;
     overflow: hidden;
-    border-right: 2px solid rgba(221, 29, 29, 1);
-    white-space: nowrap; 
+    white-space: nowrap;
+}
+
+.hello__title {
+    color: rgba(77, 189, 252, 1);
+    max-width: 575px;
+    text-transform: uppercase;
+    border-right: 2px solid rgba(77, 189, 252, 1);
     animation: 
-        typing 3.5s steps(25, end),
-        blink-caret .5s step-end infinite;
+        typing-title 1.5s steps(20, end) forwards,
+        blink-caret-title .3s infinite;
 }
 
-.hello__title-span {
-    margin: 0 auto 0;
+.hello__span {
+    display: none;
+    max-width: 450px;
     color: rgba(221, 29, 29, 1);
-    /* animation: 
-        typing 7.5s steps(30, end),
-        blink-caret .5s step-end infinite; */
-}
-
-@keyframes typing {
-    from { width: 0 }
-    to { width: 60% }
-}
-  
-@keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: rgba(221, 29, 29, 1) }
+    border-right: 2px solid rgba(221, 29, 29, 1);
+    animation: 
+        typing-span 1.5s steps(20, end) forwards,
+        blink-caret-span .8s infinite;    
 }
 
 .hello__subtitle {
@@ -68,23 +70,29 @@
 
 @media screen and (max-width: 768px) {
     .hello__title {
-        max-width: 768px;
+        margin: 0 auto;
+        max-width: 355px;
+        font-size: 60px;
+        font-weight: 600;
         line-height: 75px;
         letter-spacing: .18em;
     }
-    .hello__title-span {
-        margin: 5px 0 0 10px;
-        font-size: 75px;
+    .hello__span {
+        max-width: 295px;
+        font-size: 65px;
         letter-spacing: .18em;
     }
 }
 
 @media screen and (max-width: 320px) {
     .hello__title {
+        margin-left: 5px;
+        font-size: 55px;
         letter-spacing: .15em;
     }
-    .hello__title-span {
-        margin: 0;
+    .hello__span {
+        margin: 0 auto;
+        max-width: 250px;
         letter-spacing: .09em;
     } 
 }
