@@ -17,6 +17,7 @@ const BANNER_TEXT = 'Ваш успех — наша цель!'
 const BANNER_TEXT_ONE = 'Ваш бизнес — наше вдохновение!';
 const BANNER_TEXT_TWO = 'Ваш успех начинается здесь!';
 const BANNER_TEXT_THREE = 'Наши специалисты - ваша команда!';
+const BANNER_TEXT_FOUR = 'Наши работы';
 
 const CONTACTS = 'Контакты';
 const TELEFHONE = 'Телефон:';
@@ -70,6 +71,7 @@ module.exports = {
     BANNER_TEXT_ONE,
     BANNER_TEXT_TWO,
     BANNER_TEXT_THREE,
+    BANNER_TEXT_FOUR,
     CONTACTS,
     TELEFHONE,
     NUMBER,
