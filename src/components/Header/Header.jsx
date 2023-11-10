@@ -17,7 +17,7 @@ function Header() {
                     </a>
                 </li>
                 <li className='header__li'>
-                    <a href="#Gallery" className='header__li-link'>
+                    <a href="#Section-Work" className='header__li-link'>
                         {WORK}
                     </a>
                 </li>

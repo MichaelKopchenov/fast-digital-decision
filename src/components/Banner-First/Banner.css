@@ -28,17 +28,17 @@
     display: grid;
 }
 
+@media screen and (max-width: 1024px) {
+    .banner__title {
+        letter-spacing: .15em;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .banner__title {
         max-width: 768px;
         font-size: 30px;
         line-height: 30px;
-    }
-}
-
-@media screen and (max-width: 1024px) {
-    .banner__title {
-        letter-spacing: .15em;
     }
 }
 
