@@ -37,29 +37,23 @@ function Team() {
                         </p>
                     </div>
                     <ul className='team__container-box-ul'>
-                            <li className='team__container-box-li'>
-                                {TEAM_TEXT_ONE}
-                            </li>
-                            <li className='team__container-box-li'>
-                                {TEAM_TEXT_TWO}
-                            </li>
-                            <li className='team__container-box-li'>
-                                {TEAM_TEXT_THREE}
-                            </li>
-                        </ul>
-                        <div className='team__container-box-card'>
-                        <img 
-                            className='team__container-box-card-avatar' 
-                            src={AvatarMichael} 
-                            alt={TEAM_MICHAEL} 
-                        />
-                        <p className='team__container-box-card-text'>
-                            {TEAM_MICHAEL}
-                        </p>
-                        <p className='team__container-box-card-text'>
-                            {TEAM_MICHAEL_PROF}
-                        </p>
-                        </div>
+                        <li className='team__container-box-li'>
+                            {TEAM_TEXT_ONE}
+                        </li>
+                    </ul>
+                    <div className='team__container-box-card'>
+                    <img 
+                        className='team__container-box-card-avatar' 
+                        src={AvatarMichael} 
+                        alt={TEAM_MICHAEL} 
+                    />
+                    <p className='team__container-box-card-text'>
+                        {TEAM_MICHAEL}
+                    </p>
+                    <p className='team__container-box-card-text'>
+                        {TEAM_MICHAEL_PROF}
+                    </p>
+                    </div>
                 </div>
                 <div className='team__container-box'>
                 <div className='team__container-box-card team__container-box-card_type'>
