@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/fast-digital-decision/static/css/main.f4cb3b15.css",
-    "main.js": "/fast-digital-decision/static/js/main.d2c41eca.js",
+    "main.css": "/fast-digital-decision/static/css/main.873d8af4.css",
+    "main.js": "/fast-digital-decision/static/js/main.df07e20f.js",
     "static/js/787.f6d2e236.chunk.js": "/fast-digital-decision/static/js/787.f6d2e236.chunk.js",
     "static/media/Michael3.png": "/fast-digital-decision/static/media/Michael3.b0f3323aed6f8ab3c453.png",
     "static/media/back.svg": "/fast-digital-decision/static/media/back.40259c605a52fe17d928.svg",
@@ -29,12 +29,12 @@
     "static/media/slick.ttf": "/fast-digital-decision/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/fast-digital-decision/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/fast-digital-decision/index.html",
-    "main.f4cb3b15.css.map": "/fast-digital-decision/static/css/main.f4cb3b15.css.map",
-    "main.d2c41eca.js.map": "/fast-digital-decision/static/js/main.d2c41eca.js.map",
+    "main.873d8af4.css.map": "/fast-digital-decision/static/css/main.873d8af4.css.map",
+    "main.df07e20f.js.map": "/fast-digital-decision/static/js/main.df07e20f.js.map",
     "787.f6d2e236.chunk.js.map": "/fast-digital-decision/static/js/787.f6d2e236.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f4cb3b15.css",
-    "static/js/main.d2c41eca.js"
+    "static/css/main.873d8af4.css",
+    "static/js/main.df07e20f.js"
   ]
 }
