@@ -1,14 +1,18 @@
 {
   "files": {
-    "main.css": "/fast-digital-decision/static/css/main.873d8af4.css",
-    "main.js": "/fast-digital-decision/static/js/main.df07e20f.js",
+    "main.css": "/fast-digital-decision/static/css/main.d72ae14a.css",
+    "main.js": "/fast-digital-decision/static/js/main.fc171497.js",
     "static/js/787.f6d2e236.chunk.js": "/fast-digital-decision/static/js/787.f6d2e236.chunk.js",
     "static/media/Michael3.png": "/fast-digital-decision/static/media/Michael3.b0f3323aed6f8ab3c453.png",
+    "static/media/mesto.png": "/fast-digital-decision/static/media/mesto.4bef311b37221864be32.png",
+    "static/media/movies.png": "/fast-digital-decision/static/media/movies.979fe99e6b32e28c2b1d.png",
+    "static/media/travel.png": "/fast-digital-decision/static/media/travel.2b456032485c1fa9d74e.png",
+    "static/media/how-to-learn.png": "/fast-digital-decision/static/media/how-to-learn.a387d2250ceb769c802c.png",
     "static/media/back.svg": "/fast-digital-decision/static/media/back.40259c605a52fe17d928.svg",
     "static/media/PlayfairDisplay-VariableFont_wght.ttf": "/fast-digital-decision/static/media/PlayfairDisplay-VariableFont_wght.20240034b80f50c3ad00.ttf",
-    "static/media/img_5terre.jpeg": "/fast-digital-decision/static/media/img_5terre.b6cfea49ad84e180fcb2.jpeg",
     "static/media/Alexey.png": "/fast-digital-decision/static/media/Alexey.4be52353ace47524aa83.png",
     "static/media/Inter-Black.woff": "/fast-digital-decision/static/media/Inter-Black.87c06fd2ac7128c9a81d.woff",
+    "static/media/OSNO.png": "/fast-digital-decision/static/media/OSNO.38076a561b5c463f7e2b.png",
     "static/media/Inter-Regular.woff": "/fast-digital-decision/static/media/Inter-Regular.0d6f7c99e635f1fec4c9.woff",
     "static/media/Inter-Medium.woff": "/fast-digital-decision/static/media/Inter-Medium.f4d11c8a0b8ff301493a.woff",
     "static/media/Sergey.png": "/fast-digital-decision/static/media/Sergey.80e2c5e57c9add15ac3a.png",
@@ -19,22 +23,20 @@
     "static/media/Inter-Black.woff2": "/fast-digital-decision/static/media/Inter-Black.ed17840f58cc8c61635a.woff2",
     "static/media/Vlad.png": "/fast-digital-decision/static/media/Vlad.a3c63ef733ad8fd6fd1d.png",
     "static/media/Inter-Regular.woff2": "/fast-digital-decision/static/media/Inter-Regular.bd097ceff83f90802a12.woff2",
-    "static/media/img_mountains.jpeg": "/fast-digital-decision/static/media/img_mountains.fed0dd86f0f492fb65bb.jpeg",
     "static/media/BuyanThin.ttf": "/fast-digital-decision/static/media/BuyanThin.0e0ceef676bd2d0915b0.ttf",
     "static/media/BuyanRegular.ttf": "/fast-digital-decision/static/media/BuyanRegular.5c1856c3045c01b9ec35.ttf",
     "static/media/BuyanBold.ttf": "/fast-digital-decision/static/media/BuyanBold.3fd5957c1724d2506fc4.ttf",
-    "static/media/img_woods.jpeg": "/fast-digital-decision/static/media/img_woods.338341ee8bd793d3844d.jpeg",
     "static/media/slick.svg": "/fast-digital-decision/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/fast-digital-decision/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/fast-digital-decision/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/fast-digital-decision/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/fast-digital-decision/index.html",
-    "main.873d8af4.css.map": "/fast-digital-decision/static/css/main.873d8af4.css.map",
-    "main.df07e20f.js.map": "/fast-digital-decision/static/js/main.df07e20f.js.map",
+    "main.d72ae14a.css.map": "/fast-digital-decision/static/css/main.d72ae14a.css.map",
+    "main.fc171497.js.map": "/fast-digital-decision/static/js/main.fc171497.js.map",
     "787.f6d2e236.chunk.js.map": "/fast-digital-decision/static/js/787.f6d2e236.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.873d8af4.css",
-    "static/js/main.df07e20f.js"
+    "static/css/main.d72ae14a.css",
+    "static/js/main.fc171497.js"
   ]
 }
