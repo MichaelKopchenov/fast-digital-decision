@@ -42,7 +42,7 @@
 #popup.active {
     visibility: visible;
     top: 12%;
-    left: 72%
+    /* left: 72% */
 }
 
 .header__popup {
