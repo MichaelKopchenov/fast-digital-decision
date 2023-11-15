@@ -18,12 +18,12 @@ function App() {
       <Hello />
       <BannerFirst />
       <Welcome />
-      <BannerSecond />
-      <About />
-      <BannerFour />
-      <Gallery />
       <BannerThird />
       <Team />
+      <BannerFour />
+      <Gallery />
+      <BannerSecond />
+      <About />
       <Footer />
     </>
   );

@@ -1,6 +1,13 @@
 .footer {
     background-color: rgba(6, 41, 61, 1);
     margin: 0 auto;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+
+.footer__content {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -18,11 +25,26 @@
 .footer__subtitle {
     font-weight: 400;
     letter-spacing: .015em;
-    margin: 13px auto 23;
+    margin: 13px auto 23px;
 }
 
 .footer__subtitle-number {
     font-weight: 400;
+}
+
+.footer__email {
+    font-weight: 400;
+    letter-spacing: .015em;
+    margin: 0 auto 10px;
+}
+
+.footer__email-address {
+    text-decoration: none;
+    color: rgba(242, 244, 250);
+}
+
+.footer__email-address:hover {
+    text-decoration: underline;
 }
 
 .footer__ul {
@@ -90,7 +112,7 @@
   border: 2px solid black;
 }
 
-.footer__bitton-up_forvard {
+.footer__button-up_forvard {
     font-size: 35px;
     margin: 0 auto;
 }
@@ -101,4 +123,21 @@
     font-size: 10px;
     line-height: 6.5px;
     margin: 5px auto;
+}
+
+.footer__copyright {
+    display: flex;
+    align-items: flex-start;
+    margin: 0 0 0 5px;
+    padding-bottom: 5px;
+}
+
+.footer__copyright-text {
+    font-family: 'Buyan';
+    letter-spacing: .15em;
+    font-size: 10px;
+    opacity: .4;
+    margin: 0;
+    position: relative;
+    
 }

@@ -4,7 +4,7 @@ import '../Banner-First/Banner.css'
 
 function BannerThird() {
     return (
-        <section className='banner'>
+        <section id='Section-Team' className='banner'>
             <h2 className='banner__title'>
             {BANNER_TEXT_THREE}
             </h2>

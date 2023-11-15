@@ -1,8 +1,49 @@
-.test {
-    display: flex;
+.gallery__caption {
+    max-width: 400px;
+    margin-left: 15px;
+    letter-spacing: .1em;
+    line-height: 25px;
 }
 
-.block {
+.gallery__block {
     display: flex;
-    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.gallery__flex {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.gallery__title {
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Buyan';
+    letter-spacing: .5em;
+}
+
+@media screen and (max-width: 1024px) {
+    .gallery__flex {
+        max-width: 385px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .gallery__block {
+        flex-direction: column;
+    }
+    .gallery__flex {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .gallery__block {
+        flex-direction: column;
+    }
+    .gallery__flex {
+        display: none;
+    }
 }

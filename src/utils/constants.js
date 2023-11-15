@@ -21,6 +21,8 @@ const BANNER_TEXT_FOUR = 'Наши работы';
 const CONTACTS = 'Контакты';
 const TELEFHONE = 'Телефон:';
 const NUMBER = '+7(499)322-76-68';
+const EMAIL = 'E-mail:';
+const EMAIL_ADDRESS = 'fdd-info@yandex.ru';
 
 const VK = 'VK';
 const WHATSAPP = "Whats'App";
@@ -28,6 +30,16 @@ const TELEGRAM = 'Telegram';
 
 const TEAM = 'Команда';
 const WORK = 'Наши работы';
+const WORK_TITLE_ONE = 'Общенациональный союз некоммерческих организаций';
+const WORK_TITLE_TWO = 'Научиться учиться';
+const WORK_TITLE_THREE = 'Mesto';
+const WORK_TITLE_FOUR = 'Путешествия по России';
+const WORK_TITLE_FIVE = 'Movies Collection';
+const WORK_TEXT_ONE = 'Платформа для поиска кандидатов на вакансии для некоммерческой организации.';
+const WORK_TEXT_TWO = 'Сайт-визитка с рекомендациями по организации процесса любого обучения.';
+const WORK_TEXT_THREE = 'Платформа для публикации фотографий с функциями регистрации, логина, постановки и снятия лайка.';
+const WORK_TEXT_FOUR = 'Сайт-визитка с описанием значимых мест России.';
+const WORK_TEXT_FIVE = 'Платформа для поиска трейлеров к фильмам с функциями регистрации, логина, постановки и снятия лайка и фильтром по короткометражным фильмам.';
 
 const HELLO_TEXT_TITLE = 'Fast Digital';
 const HELLO_TEXT_SPAN = 'Decisions';
@@ -73,11 +85,23 @@ module.exports = {
   CONTACTS,
   TELEFHONE,
   NUMBER,
+  EMAIL,
+  EMAIL_ADDRESS,
   VK,
   WHATSAPP,
   TELEGRAM,
   TEAM,
   WORK,
+  WORK_TITLE_ONE,
+  WORK_TITLE_TWO,
+  WORK_TITLE_THREE,
+  WORK_TITLE_FOUR,
+  WORK_TITLE_FIVE,
+  WORK_TEXT_ONE,
+  WORK_TEXT_TWO,
+  WORK_TEXT_THREE,
+  WORK_TEXT_FOUR,
+  WORK_TEXT_FIVE,
   HELLO_TEXT_TITLE,
   HELLO_TEXT_SPAN,
   HELLO_TEXT_SUBTITLE,
