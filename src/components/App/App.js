@@ -1,32 +1,28 @@
 import Header from '../Header/Header';
 import Hello from '../Hello/Hello';
-import BannerFirst from '../Banner-First/Banner-First';
-import BannerSecond from '../Banner-Second/Banner-Second';
-import BannerThird from '../Banner-Third/Banner-Third';
-import BannerFour from '../Banner-Four/Banner-Four';
+import Banner from '../Banner/Banner';
 import Welcome from '../Welcome/Welcome';
 import About from '../About/About';
 import Gallery from '../Gallery/Gallery';
 import Team from '../Team/Team';
 import Footer from '../Footer/Footer';
+import { bannerText } from '../../utils/constants';
 import './App.css';
 
-function App() {
+export default function App() {
   return (
     <>
       <Header />
       <Hello />
-      <BannerFirst />
+      <Banner {...bannerText[0]}/>
       <Welcome />
-      <BannerThird />
+      <Banner {...bannerText[2]}/>
       <Team />
-      <BannerFour />
+      <Banner {...bannerText[3]}/>
       <Gallery />
-      <BannerSecond />
+      <Banner {...bannerText[1]}/>
       <About />
       <Footer />
     </>
   );
 };
-
-export default App;

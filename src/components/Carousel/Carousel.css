@@ -1,22 +1,22 @@
-.gallery__caption {
+.carousel__caption {
     max-width: 400px;
     margin-left: 15px;
     letter-spacing: .1em;
     line-height: 25px;
 }
 
-.gallery__block {
+.carousel__block {
     display: flex;
     align-items: center;
 }
 
-.gallery__flex {
+.carousel__flex {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-.gallery__title {
+.carousel__title {
     margin: 0 auto;
     text-align: center;
     text-transform: uppercase;
@@ -25,25 +25,25 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .gallery__flex {
+    .carousel__flex {
         max-width: 385px;
     }
 }
 
 @media screen and (max-width: 320px) {
-    .gallery__block {
+    .carousel__block {
         flex-direction: column;
     }
-    .gallery__flex {
+    .carousel__flex {
         display: none;
     }
 }
 
 @media screen and (max-width: 280px) {
-    .gallery__block {
+    .carousel__block {
         flex-direction: column;
     }
-    .gallery__flex {
+    .carousel__flex {
         display: none;
     }
 }

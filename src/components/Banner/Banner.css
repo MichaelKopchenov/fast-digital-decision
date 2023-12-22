@@ -15,7 +15,7 @@
             rgba(188, 7, 10, 0.8),
             rgba(63, 157, 210, 0.8),
             rgba(63, 157, 210, 0.8));
-    -webkit-background-clip: text;
+    background-clip: text;
     color: transparent;
     font-family: 'Buyan';
     font-size: 36px;

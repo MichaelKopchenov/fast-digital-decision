@@ -1,5 +1,3 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
-import React from 'react';
 import LogoT from '../../images/logot.png';
 import {
     CONTACTS,
@@ -10,28 +8,31 @@ import {
     TELEGRAM,
     URL_TELEGRAM
 } from '../../utils/constants';
+import ButtonUp from '../ButtonUp/ButtonUp';
 import './Footer.css';
 
-function Footer() {
+export default function Footer() {
   window.onscroll = function() {scrollFunction()};
 
   function scrollFunction() {
     if (document.body.scrollTop > 1600 || document.documentElement.scrollTop > 1600) {
-        document.getElementById("footer__button-up").style.display = "flex";
+        document.getElementById("button__up").style.display = "flex";
     } else {
-        document.getElementById("footer__button-up").style.display = "none";
+        document.getElementById("button__up").style.display = "none";
     }
   }
+
     return (
         <footer className="footer" id='Contacts'>
+            <ButtonUp />
             <div className='footer__content'>    
                 <h2 className='footer-title'>
                     {CONTACTS}
                 </h2>
                 <h3 className='footer__subtitle'>
                     {TELEFHONE} <span className='footer__subtitle-number'>
-                                {NUMBER}
-                            </span>
+                                    {NUMBER}
+                                </span>
                 </h3>
                 <h3 className='footer__email'>
                     {EMAIL} <a className='footer__email-address' href='mailto: fdd-info@yandex.ru'>
@@ -47,22 +48,14 @@ function Footer() {
                             className='footer__li-link'
                         >
                             <img 
-                            src={LogoT} 
-                            alt="Телеграм" 
-                            className='footer__li-ico'
+                                src={LogoT} 
+                                alt="Телеграм" 
+                                className='footer__li-ico'
                             />
                             {TELEGRAM}
                         </a>
                     </li>
                 </ul>
-                <a href="#" id='footer__button-up'>
-                    <p className='footer__button-up_forvard'>
-                        ↑
-                    </p>
-                    <p className='footer__button-up_text'>
-                        Вернуться
-                    </p>
-                </a>
             </div>
             <div className='footer__copyright'>
                 <p className='footer__copyright-text'>
@@ -72,5 +65,3 @@ function Footer() {
         </footer>
     );
 };
-
-export default Footer;

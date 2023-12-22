@@ -1,0 +1,35 @@
+.team__container-box-card-avatar {
+    border-radius: 5px;
+    max-width: 164px;
+    max-height: 218px;
+}
+
+.team__container-box-card {
+    margin: 50px auto 0;
+}
+
+.team__container-box-card_type {
+    margin-top: 10px;
+}
+
+
+.team__container-box-card-text {
+    margin: 8px auto 0;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    max-width: 164px;
+}
+
+.team__container-box-card-text:nth-child(3) {
+    margin: 0 auto;
+}
+
+
+@media screen and (max-width: 768px) {
+    .team__container-box-card {
+        order:2;
+        margin-top: 10px;
+    }
+}
