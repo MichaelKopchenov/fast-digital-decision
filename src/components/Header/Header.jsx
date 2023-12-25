@@ -1,5 +1,4 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-// import { useState } from 'react';
 import Popup from '../Popup/Popup';
 import {
     CONTACTS,
@@ -9,10 +8,11 @@ import {
 import './Header.css';
 
 export default function Header() {
-    function popupToggle(){
+    function popupOpen() {
         const popup = document.getElementById('popup');
         popup.classList.toggle('active');
     }
+
     return (
         <header className="header" id='Header'>
             <ul className='header__ul'>
@@ -30,7 +30,7 @@ export default function Header() {
                     <button 
                         id='btn' 
                         className='header__li-link' 
-                        onClick={popupToggle}
+                        onClick={popupOpen}
                     >
                         {CONTACTS}
                     </button>

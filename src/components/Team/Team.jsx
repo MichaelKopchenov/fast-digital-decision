@@ -9,8 +9,8 @@ export default function Team() {
             <div className='team__container'>
                 <StaffBox> 
                     <Staff {...staffText[0]} />
-                    <ul class="team__container-box-ul">
-                        <li class="team__container-box-li">
+                    <ul className="team__container-box-ul">
+                        <li className="team__container-box-li">
                             {TEAM_TEXT_ONE}
                         </li>
                     </ul>

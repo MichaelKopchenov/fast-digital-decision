@@ -59,9 +59,13 @@
 
 .header__popup_close {
     position: absolute;
+    border: none;
     top: 10px;
     right: 5px;
     cursor: pointer;
+    padding: 0;
+    max-height: 30px;
+    background-color: rgba(6, 41, 61, 1);
 }
 
 .header__popup_close-icon {

@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import LogoT from '../../images/logot.png';
 import CloseIcon from '../../images/close.png'
 import {
@@ -13,10 +12,11 @@ import {
 import './Popup.css';
 
 export default function Popup () {
-    function popupToggle(){
+    function popupClose(){
         const popup = document.getElementById('popup');
-        popup.classList.toggle('active');
+        popup.classList.remove('active');
     }
+    
     return (
         <div id="popup">
                 <div className="header__popup">
@@ -47,7 +47,7 @@ export default function Popup () {
                         {TELEGRAM}
                     </a>
                 </div>
-                <button className="header__popup_close" onClick={popupToggle}>
+                <button className="header__popup_close" onClick={popupClose}>
                     <img 
                         src={CloseIcon} 
                         alt='Закрыть' 
