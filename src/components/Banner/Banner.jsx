@@ -1,8 +1,8 @@
 import './Banner.css';
 
-export default function Banner ({title}) {
+export default function Banner ( {title, id} ) {
     return (
-        <section id='Section-Team' className='banner'>
+        <section id={id} className='banner'>
             <h2 className='banner__title'>
                 {title}
             </h2>

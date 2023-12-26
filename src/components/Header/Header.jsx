@@ -17,12 +17,12 @@ export default function Header() {
         <header className="header" id='Header'>
             <ul className='header__ul'>
                 <li className='header__li'>
-                    <a href="#Section-Team" className='header__li-link'>
+                    <a href="#Staff" className='header__li-link'>
                         {TEAM}
                     </a>
                 </li>
                 <li className='header__li'>
-                    <a href="#Section-Work" className='header__li-link'>
+                    <a href="#Works" className='header__li-link'>
                         {WORK}
                     </a>
                 </li>

@@ -1,0 +1,9 @@
+.hide {
+    transition-duration: 1000ms;
+    opacity: 0;
+}
+
+.show {
+    transition-duration: 3000ms;
+    opacity: 1;
+}
