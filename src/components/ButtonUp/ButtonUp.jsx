@@ -1,4 +1,4 @@
-import './ButtonUp.css'
+import './ButtonUp.css';
 
 export default function ButtonUp () {
     window.onscroll = function() {scrollFunction()};
@@ -9,7 +9,8 @@ export default function ButtonUp () {
     } else {
         document.getElementById("button__up").style.display = "none";
     }
-    }
+    };
+
     return (
         <a href="#root" id='button__up'>
             <p className='button__up_forvard'>
@@ -19,5 +20,5 @@ export default function ButtonUp () {
                 Вернуться
             </p>
         </a>
-    )
-}
+    );
+};

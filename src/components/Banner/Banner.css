@@ -12,10 +12,10 @@
 
 .banner__title {
     background: linear-gradient(to left,
-            rgba(188, 7, 10, 0.8),
-            rgba(188, 7, 10, 0.8),
-            rgba(63, 157, 210, 0.8),
-            rgba(63, 157, 210, 0.8));
+            var(--font-one-color),
+            var(--font-one-color),
+            var(--font-two-color),
+            var(--font-two-color));
     background-clip: text;
     color: transparent;
     font-family: 'Buyan';

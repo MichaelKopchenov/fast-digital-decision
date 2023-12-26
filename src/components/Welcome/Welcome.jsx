@@ -1,4 +1,3 @@
-import React from 'react';
 import {
     WELCOME_TEXT_ONE,
     WELCOME_TEXT_TWO,
@@ -6,7 +5,7 @@ import {
 } from '../../utils/constants';
 import './Welcome.css';
 
-function Welcome() {
+export default function Welcome() {
     return (
         <section className='welcome' id='Welcome'>
             <ul className='welcome__ul'>
@@ -23,5 +22,3 @@ function Welcome() {
         </section>
     );
 };
-
-export default Welcome;

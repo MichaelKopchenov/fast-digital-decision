@@ -21,47 +21,47 @@
   <tr>
     <th>
         <center>
-        <img 
-            src="/src/images/Alexey.png" 
-            width="164" 
-            height="218"
-        />
+            <img 
+                src="/src/images/Alexey.png" 
+                width="164" 
+                height="218"
+            />
         </center>
     </th>
     <th>
         <center>
-        <img 
-            src="/src/images/Vlad.png" 
-            width="164" 
-            height="218"
-        />
+            <img 
+                src="/src/images/Vlad.png" 
+                width="164" 
+                height="218"
+            />
         </center>
     </th>
     <th>
         <center>
-        <img 
-            src="/src/images/Michael.png" 
-            width="164" 
-            height="218"
-        />
+            <img 
+                src="/src/images/Michael.png" 
+                width="164" 
+                height="218"
+            />
         </center>
     </th>
   </tr>
   <tr>
     <td>
         <center>
-        Червяков Алексей Андреевич</br> Product/Project manager
+            Червяков Алексей Андреевич</br> Product/Project manager
         </center>
     </td>
     <td>
-    <center>
-        Кулагин Владислав Владимирович</br> UI/Ux designer
-    </center>
+        <center>
+            Кулагин Владислав Владимирович</br> UI/Ux designer
+        </center>
     </td>
     <td>
-    <center>
-        Копченов Михаил Викторович</br> Web-developer
-    </center>
+        <center>
+            Копченов Михаил Викторович</br> Web-developer
+        </center>
     </td>
   </tr>
 </table>

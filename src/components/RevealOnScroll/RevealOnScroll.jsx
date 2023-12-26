@@ -1,7 +1,11 @@
-import React, { useState, useEffect, useRef } from "react";
-import './RevealOnScroll.css'
+import React, { 
+  useState, 
+  useEffect, 
+  useRef 
+} from "react";
+import './RevealOnScroll.css';
 
-export default function RevealOnScroll ( {children} ) {
+export default function RevealOnScroll ({ children }) {
   const [isVisible, setIsVisible] = useState(false);
   const ref = useRef(null);
 
@@ -17,7 +21,7 @@ export default function RevealOnScroll ( {children} ) {
         } else {
           setIsVisible(false);
         }
-      }
+      };
     };
 
     window.addEventListener('scroll', onWindScroll);
@@ -33,4 +37,4 @@ export default function RevealOnScroll ( {children} ) {
       {children}
     </div>
   );
-}
+};

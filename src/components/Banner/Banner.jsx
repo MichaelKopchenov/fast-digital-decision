@@ -1,6 +1,6 @@
 import './Banner.css';
 
-export default function Banner ( {title, id} ) {
+export default function Banner ({ title, id }) {
     return (
         <section id={id} className='banner'>
             <h2 className='banner__title'>
@@ -8,4 +8,4 @@ export default function Banner ( {title, id} ) {
             </h2>
         </section>
     );
-}
+};

@@ -1,6 +1,10 @@
 import './Staff.css';
 
-export default function Staff ({ name, prof, avatar }) {
+export default function Staff ({ 
+    name, 
+    prof, 
+    avatar 
+}) {
     return (
         <div className='team__container-box-card'>
             <img 
@@ -15,5 +19,5 @@ export default function Staff ({ name, prof, avatar }) {
                 {prof}
             </p>
         </div>
-    )
-}
+    );
+};

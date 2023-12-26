@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import Popup from '../Popup/Popup';
 import {
     CONTACTS,
@@ -11,7 +10,7 @@ export default function Header() {
     function popupOpen() {
         const popup = document.getElementById('popup');
         popup.classList.toggle('active');
-    }
+    };
 
     return (
         <header className="header" id='Header'>

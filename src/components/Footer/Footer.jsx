@@ -1,4 +1,4 @@
-import LogoT from '../../images/logot.png';
+import LogoT from '../../images/Logos/logot.png';
 import {
     CONTACTS,
     TELEFHONE,
@@ -8,23 +8,11 @@ import {
     TELEGRAM,
     URL_TELEGRAM
 } from '../../utils/constants';
-// import ButtonUp from '../ButtonUp/ButtonUp';
 import './Footer.css';
 
 export default function Footer() {
-//   window.onscroll = function() {scrollFunction()};
-
-//   function scrollFunction() {
-//     if (document.body.scrollTop > 1600 || document.documentElement.scrollTop > 1600) {
-//         document.getElementById("button__up").style.display = "flex";
-//     } else {
-//         document.getElementById("button__up").style.display = "none";
-//     }
-//   }
-
     return (
         <footer className="footer" id='Contacts'>
-            {/* <ButtonUp /> */}
             <div className='footer__content'>    
                 <h2 className='footer-title'>
                     {CONTACTS}

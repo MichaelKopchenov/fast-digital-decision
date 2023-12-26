@@ -65,22 +65,22 @@ const staffText = [
   {
     name: 'Владислав',
     prof: 'UI/Ux designer',
-    avatar: require('../images/Vlad.png')
+    avatar: require('../images/Avatars/Vlad.png')
   },
   {
     name: 'Михаил',
     prof: 'Web-developer',
-    avatar: require('../images/Michael3.png')
+    avatar: require('../images/Avatars/Michael.png')
   },
   {
     name: 'Сергей',
     prof: 'Digital marketing',
-    avatar: require('../images/Sergey.png')
+    avatar: require('../images/Avatars/Sergey.png')
   },
   {
     name: 'Алексей',
     prof: 'Product/Project manager',
-    avatar: require('../images/Alexey.png')
+    avatar: require('../images/Avatars/Alexey.png')
   },
 ];
 

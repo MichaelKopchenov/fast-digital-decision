@@ -14,7 +14,7 @@ import './App.css';
 export default function App () {
   return (
     <>
-      <ButtonUp />    
+      <ButtonUp />   
       <Header />
       <Hello />
       <RevealOnScroll>

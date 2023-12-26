@@ -5,5 +5,5 @@ export default function StaffBox ({ children }) {
         <div className='team__container-box'>
             {children}
         </div>
-    )
-}
+    );
+};

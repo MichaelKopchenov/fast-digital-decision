@@ -1,5 +1,5 @@
-import LogoT from '../../images/logot.png';
-import CloseIcon from '../../images/close.png'
+import LogoT from '../../images/Logos/logot.png';
+import CloseIcon from '../../images/Others/close.png';
 import {
     CONTACTS,
     URL_TELEGRAM,
@@ -15,7 +15,7 @@ export default function Popup () {
     function popupClose(){
         const popup = document.getElementById('popup');
         popup.classList.remove('active');
-    }
+    };
     
     return (
         <div id="popup">
@@ -55,5 +55,5 @@ export default function Popup () {
                     />
                 </button>
             </div>
-    )
-}
+    );
+};

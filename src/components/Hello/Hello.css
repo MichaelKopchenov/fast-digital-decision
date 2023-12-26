@@ -9,12 +9,12 @@
 
 @keyframes blink-caret-title {
     from { border-color: transparent }
-    to { border-color: rgba(77, 189, 252, 1) }
+    to { border-color: var(--font-two-color) }
 }
   
 @keyframes blink-caret-span {
     from { border-color: transparent }
-    to { border-color: rgba(221, 29, 29, 1) }
+    to { border-color: var(--font-one-color) }
 }
 
 .hello {
@@ -23,7 +23,7 @@
     flex-direction: column;
     text-align: center;
     min-height: 100vh;
-    background-image: url(../../images/back.svg);
+    background-image: var(--back-mage);
     background-size: cover;
     position: relative;
     justify-content: center;
@@ -41,10 +41,10 @@
 }
 
 .hello__title {
-    color: rgba(77, 189, 252, 1);
+    color: var(--font-two-color);
     max-width: 575px;
     text-transform: uppercase;
-    border-right: 2px solid rgba(77, 189, 252, 1);
+    border-right: 2px solid var(--font-two-color);
     animation: 
         typing-title 1.5s steps(20, end) forwards,
         blink-caret-title .3s infinite;
@@ -53,8 +53,8 @@
 .hello__span {
     display: none;
     max-width: 450px;
-    color: rgba(221, 29, 29, 1);
-    border-right: 2px solid rgba(221, 29, 29, 1);
+    color: var(--font-one-color);
+    border-right: 2px solid var(--font-one-color);
     animation: 
         typing-span 1.5s steps(20, end) forwards,
         blink-caret-span .8s infinite;    

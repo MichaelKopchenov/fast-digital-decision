@@ -1,6 +1,11 @@
 import './Carousel.css';
 
-export default function Carousel ({ title, text, site, slide }) {
+export default function Carousel ({ 
+    title, 
+    text, 
+    site, 
+    slide 
+  }) {
     return (
         <div>
           <div className="carousel__block">
@@ -15,5 +20,5 @@ export default function Carousel ({ title, text, site, slide }) {
             </div>
           </div>
         </div>
-    )
-}
+    );
+};
