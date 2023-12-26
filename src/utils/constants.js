@@ -14,7 +14,7 @@ const TELEGRAM = 'Telegram';
 const TEAM = 'Команда';
 const WORK = 'Наши работы';
 
-const HELLO_TEXT_TITLE = 'Fast Digital';
+const HELLO_TEXT_TITLE = 'Fast Digital Decisions';
 const HELLO_TEXT_SPAN = 'Decisions';
 const HELLO_TEXT_SUBTITLE = 'Быстрые цифровые решения для вашего бизнеса';
 

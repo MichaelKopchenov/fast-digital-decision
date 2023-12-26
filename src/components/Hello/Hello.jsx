@@ -1,3 +1,4 @@
+import { useEffect, useRef } from 'react';
 import {
     HELLO_TEXT_TITLE,
     HELLO_TEXT_SPAN,
@@ -6,23 +7,20 @@ import {
 import './Hello.css';
 
 export default function Hello() {
-    function removeCursor () {
-        document.getElementById("title").style = "border-right: none";
-    }
+    const titleRef = useRef();
+    const spanRef = useRef();
 
-    function getSpanBlock () {
-        document.getElementById("span").style.display = "block";
-      }
-      
-    setTimeout(removeCursor, 1500);
-    setTimeout(getSpanBlock, 1500);
+    useEffect(() => {
+        titleRef.current.style = 'border-right: none';
+        spanRef.current.style = 'display: block';
+    }, []);
 
     return (
         <section className='hello' id='Hello'>
-            <h1 id='title' className='hello__text hello__title'>
+            <h1 ref={titleRef} id='title' className='hello__text hello__title'>
                 {HELLO_TEXT_TITLE}
             </h1>
-            <span id='span' className='hello__text hello__span'>
+            <span ref={spanRef} id='span' className='hello__text hello__span'>
                 {HELLO_TEXT_SPAN}
             </span>
             <p className='hello__subtitle'>

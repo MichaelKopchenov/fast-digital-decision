@@ -46,7 +46,7 @@
     text-transform: uppercase;
     border-right: 2px solid var(--font-two-color);
     animation: 
-        typing-title 1.5s steps(20, end) forwards,
+        typing-title .5s steps(20, end) forwards,
         blink-caret-title .3s infinite;
 }
 
@@ -56,7 +56,7 @@
     color: var(--font-one-color);
     border-right: 2px solid var(--font-one-color);
     animation: 
-        typing-span 1.5s steps(20, end) forwards,
+        typing-span 2s steps(20, end) forwards,
         blink-caret-span .8s infinite;    
 }
 
