@@ -1,14 +1,14 @@
 import './ButtonUp.css';
 
-export default function ButtonUp () {
-    window.onscroll = function() {scrollFunction()};
+export default function ButtonUp() {
+    window.onscroll = function () { scrollFunction() };
 
     function scrollFunction() {
-    if (document.body.scrollTop > 1600 || document.documentElement.scrollTop > 1600) {
-        document.getElementById("button__up").style.display = "flex";
-    } else {
-        document.getElementById("button__up").style.display = "none";
-    }
+        if (document.body.scrollTop > 1600 || document.documentElement.scrollTop > 1600) {
+            document.getElementById("button__up").style.display = "flex";
+        } else {
+            document.getElementById("button__up").style.display = "none";
+        }
     };
 
     return (

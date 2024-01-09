@@ -1,13 +1,16 @@
 .carousel__caption {
     max-width: 400px;
-    margin-left: 15px;
     letter-spacing: .1em;
     line-height: 25px;
+    text-align: center;
 }
 
 .carousel__block {
     display: flex;
     align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100vh;
 }
 
 .carousel__flex {
@@ -34,6 +37,7 @@
     .carousel__block {
         flex-direction: column;
     }
+
     .carousel__flex {
         display: none;
     }
@@ -43,6 +47,7 @@
     .carousel__block {
         flex-direction: column;
     }
+
     .carousel__flex {
         display: none;
     }

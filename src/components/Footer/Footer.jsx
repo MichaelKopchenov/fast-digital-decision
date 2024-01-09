@@ -13,31 +13,31 @@ import './Footer.css';
 export default function Footer() {
     return (
         <footer className="footer" id='Contacts'>
-            <div className='footer__content'>    
+            <div className='footer__content'>
                 <h2 className='footer-title'>
                     {CONTACTS}
                 </h2>
                 <h3 className='footer__subtitle'>
                     {TELEFHONE} <span className='footer__subtitle-number'>
-                                    {NUMBER}
-                                </span>
+                        {NUMBER}
+                    </span>
                 </h3>
                 <h3 className='footer__email'>
                     {EMAIL} <a className='footer__email-address' href='mailto: fdd-info@yandex.ru'>
-                                {EMAIL_ADDRESS}
-                            </a>
+                        {EMAIL_ADDRESS}
+                    </a>
                 </h3>
                 <ul className='footer__ul'>
                     <li className='footer__li'>
-                        <a 
-                            href={URL_TELEGRAM} 
-                            target='_blank' 
+                        <a
+                            href={URL_TELEGRAM}
+                            target='_blank'
                             rel="noreferrer"
                             className='footer__li-link'
                         >
-                            <img 
-                                src={LogoT} 
-                                alt="Телеграм" 
+                            <img
+                                src={LogoT}
+                                alt="Телеграм"
                                 className='footer__li-ico'
                             />
                             {TELEGRAM}

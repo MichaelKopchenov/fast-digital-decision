@@ -20,6 +20,7 @@
 .about__container-title {
     display: flex;
     justify-content: center;
+    text-align: center;
     font-family: 'Buyan';
     font-size: 40px;
     letter-spacing: .1em;

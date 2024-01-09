@@ -101,6 +101,10 @@ const bannerText = [
     title: 'Наши работы',
     id: 'Works'
   },
+  {
+    title: 'Свяжитесь с нами',
+    id: 'Back'
+  },
 ];
 
 const gridText = [
@@ -152,4 +156,4 @@ module.exports = {
   URL_VK,
   URL_WHATSAPP,
   URL_TELEGRAM
-  }
+}

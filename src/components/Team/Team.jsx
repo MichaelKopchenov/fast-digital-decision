@@ -7,18 +7,16 @@ export default function Team() {
     return (
         <section className='team' id='Team'>
             <div className='team__container'>
-                <StaffBox> 
-                    <Staff {...staffText[0]} />
-                    <ul className="team__container-box-ul">
-                        <li className="team__container-box-li">
-                            {TEAM_TEXT_ONE}
-                        </li>
-                    </ul>
-                    <Staff {...staffText[1]} />
-                </StaffBox>
+                <ul className="team__container-box-ul">
+                    <li className="team__container-box-li">
+                        {TEAM_TEXT_ONE}
+                    </li>
+                </ul>
                 <StaffBox>
-                    <Staff {...staffText[2]} />
-                    <Staff {...staffText[3]} />
+                    {
+                        staffText.map((worker) => (
+                            <Staff key={worker.name} {...worker} />))
+                    }
                 </StaffBox>
             </div>
         </section>

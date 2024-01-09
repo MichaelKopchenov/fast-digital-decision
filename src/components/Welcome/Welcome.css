@@ -28,6 +28,7 @@
     .welcome {
         min-height: 400px;
     }
+
     .welcome__li {
         line-height: 40px;
         letter-spacing: .015em;

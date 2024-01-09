@@ -10,11 +10,9 @@ export default function About() {
                     {ABOUT_TEXT_TITLE}
                 </h2>
                 <div className='about__container-caption'>
-                    <GridContainer {...gridText[0]}/>
-                    <GridContainer {...gridText[1]}/>
-                    <GridContainer {...gridText[2]}/>
-                    <GridContainer {...gridText[3]}/>
-                    <GridContainer {...gridText[4]}/>
+                    {gridText.map((grid) => (
+                        <GridContainer key={grid.description} {...grid} />
+                    ))}
                 </div>
             </div>
         </section>

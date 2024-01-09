@@ -2,7 +2,7 @@
     position: fixed;
     top: 17%;
     left: 60%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     z-index: 1000;
     background-color: rgba(6, 41, 61, 1);
     border-radius: 20px;
@@ -95,27 +95,33 @@
         max-height: 150px;
         box-sizing: border-box;
     }
+
     #popup.active {
         visibility: visible;
         top: 10%;
         left: 72%
     }
+
     .header__popup_close {
         top: 0;
         right: 5px;
     }
+
     .header__popup_title {
         font-size: 15px;
         margin: 10px auto;
     }
+
     .header__popup_subtitle {
         font-size: 15px;
         margin: 0 auto;
     }
+
     .header__popup-email {
         font-size: 15px;
         margin: 15px auto;
     }
+
     .header__popup_ico {
         max-width: 40px;
         max-height: 40px;
@@ -128,27 +134,33 @@
         max-height: 150px;
         box-sizing: border-box;
     }
+
     #popup.active {
         visibility: visible;
         top: 10%;
         left: 68%
     }
+
     .header__popup_close {
         top: 0;
         right: 5px;
     }
+
     .header__popup_title {
         font-size: 15px;
         margin: 10px auto;
     }
+
     .header__popup_subtitle {
         font-size: 15px;
         margin: 0 auto;
     }
+
     .header__popup-email {
         font-size: 15px;
         margin: 15px auto;
     }
+
     .header__popup_ico {
         max-width: 40px;
         max-height: 40px;
@@ -161,27 +173,33 @@
         max-height: 150px;
         box-sizing: border-box;
     }
+
     #popup.active {
         visibility: visible;
         top: 10%;
         left: 49.4%
     }
+
     .header__popup_close {
         top: 0;
         right: 5px;
     }
+
     .header__popup_title {
         font-size: 15px;
         margin: 10px auto;
     }
+
     .header__popup_subtitle {
         font-size: 15px;
         margin: 0 auto;
     }
+
     .header__popup-email {
         font-size: 15px;
         margin: 15px auto;
     }
+
     .header__popup_ico {
         max-width: 40px;
         max-height: 40px;
@@ -194,27 +212,33 @@
         max-height: 150px;
         box-sizing: border-box;
     }
+
     #popup.active {
         visibility: visible;
         top: 17%;
         left: 49.4%
     }
+
     .header__popup_close {
         top: 0;
         right: 5px;
     }
+
     .header__popup_title {
         font-size: 15px;
         margin: 10px auto;
     }
+
     .header__popup_subtitle {
         font-size: 15px;
         margin: 0 auto;
     }
+
     .header__popup-email {
         font-size: 15px;
         margin: 15px auto;
     }
+
     .header__popup_ico {
         max-width: 40px;
         max-height: 40px;

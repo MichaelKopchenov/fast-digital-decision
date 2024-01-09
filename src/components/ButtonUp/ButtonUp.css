@@ -1,10 +1,10 @@
-#button__up { 
+#button__up {
     background-color: #0C5378;
     align-items: center;
     justify-content: center;
     position: fixed;
     bottom: 75px;
-    right: 80px; 
+    right: 80px;
     box-sizing: border-box;
     z-index: 99;
     border: 1px solid black;
@@ -21,7 +21,7 @@
 }
 
 #button__up:hover {
-  border: 2px solid black;
+    border: 2px solid black;
 }
 
 .button__up_forvard {

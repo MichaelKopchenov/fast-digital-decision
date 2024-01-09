@@ -1,6 +1,6 @@
 import './GridContainer.css'
 
-export default function GridContainer ({ title, description }) {
+export default function GridContainer({ title, description }) {
     return (
         <div className='about__container-grid'>
             <h3 className='about__container-grid-ul'>

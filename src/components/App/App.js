@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import './App.css';
 import Preloader from '../Preloader/Preloader';
 import RevealOnScroll from '../RevealOnScroll/RevealOnScroll';
 import Header from '../Header/Header';
@@ -11,47 +10,77 @@ import Gallery from '../Gallery/Gallery';
 import Team from '../Team/Team';
 import Footer from '../Footer/Footer';
 import ButtonUp from '../ButtonUp/ButtonUp';
+import Feedback from '../Feedback/Feedback';
 import { bannerText } from '../../utils/constants';
+import './App.css';
 
-export default function App () {
+export default function App() {
   const [loading, setLoading] = useState(false);
+  const [tab, setTab] = useState('main');
 
-    useEffect(() => {
-        setLoading(true);
-        setTimeout(() => {
-          setLoading(false);
-        }, 2000);
-    }, []);
+  useEffect(() => {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 800);
+  }, []);
 
   return (
     <>
-    {loading 
-      ? (<Preloader />) 
-      : (<>
-          <ButtonUp />   
-          <Header />
-          <Hello />
-          <RevealOnScroll>
-            <Banner {...bannerText[0]}/>
-            <Welcome />
-          </RevealOnScroll>
-          <RevealOnScroll>
-            <Banner {...bannerText[2]}/>
-            <Team />
-          </RevealOnScroll>
-          <RevealOnScroll>
-            <Banner {...bannerText[3]}/>
-            <Gallery />
-          </RevealOnScroll>
-          <RevealOnScroll>
-            <Banner {...bannerText[1]}/>
-            <About />
-          </RevealOnScroll>
-          <RevealOnScroll>
-            <Footer />
-          </RevealOnScroll>
+      {loading
+        ? (<Preloader />)
+        : (<>
+          <ButtonUp />
+          <Header active={tab} onChange={(current) => setTab(current)} />
+
+          {tab === 'main' && (
+            <>
+              <Hello />
+              <RevealOnScroll>
+                <Banner {...bannerText[0]} />
+                <Welcome />
+              </RevealOnScroll>
+              <RevealOnScroll>
+                <Banner {...bannerText[1]} />
+                <About />
+              </RevealOnScroll>
+              <RevealOnScroll>
+                <Footer />
+              </RevealOnScroll>
+            </>
+          )}
+
+          {tab === 'staff' && (
+            <>
+              <Banner {...bannerText[2]} />
+              <Team />
+              <RevealOnScroll>
+                <Footer />
+              </RevealOnScroll>
+            </>
+          )}
+
+          {tab === 'works' && (
+            <>
+              <Banner {...bannerText[3]} />
+              <Gallery />
+              <RevealOnScroll>
+                <Footer />
+              </RevealOnScroll>
+            </>
+          )}
+
+          {tab === 'feedback' && (
+            <>
+              <Banner {...bannerText[4]} />
+              <Feedback />
+              <RevealOnScroll>
+                <Footer />
+              </RevealOnScroll>
+            </>
+          )}
         </>)}
-      </>
+    </>
 
   );
 };

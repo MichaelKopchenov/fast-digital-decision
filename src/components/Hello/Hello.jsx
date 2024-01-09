@@ -17,10 +17,18 @@ export default function Hello() {
 
     return (
         <section className='hello' id='Hello'>
-            <h1 ref={titleRef} id='title' className='hello__text hello__title'>
+            <h1
+                ref={titleRef}
+                id='title'
+                className='hello__text hello__title'
+            >
                 {HELLO_TEXT_TITLE}
             </h1>
-            <span ref={spanRef} id='span' className='hello__text hello__span'>
+            <span
+                ref={spanRef}
+                id='span'
+                className='hello__text hello__span'
+            >
                 {HELLO_TEXT_SPAN}
             </span>
             <p className='hello__subtitle'>
