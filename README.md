@@ -22,7 +22,7 @@
     <th>
         <center>
             <img 
-                src="/src/images/Alexey.png" 
+                src="/src/images/Avatars/Alexey.png" 
                 width="164" 
                 height="218"
             />
@@ -31,7 +31,7 @@
     <th>
         <center>
             <img 
-                src="/src/images/Vlad.png" 
+                src="/src/images/Avatars/Vlad.png" 
                 width="164" 
                 height="218"
             />
@@ -40,7 +40,7 @@
     <th>
         <center>
             <img 
-                src="/src/images/Michael.png" 
+                src="/src/images/Avatars/Michael.png" 
                 width="164" 
                 height="218"
             />
