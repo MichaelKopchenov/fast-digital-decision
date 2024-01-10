@@ -16,8 +16,8 @@
     text-decoration: none;
     width: 68px;
     height: 68px;
-    display: none;
     flex-direction: column;
+    display: flex;
 }
 
 #button__up:hover {

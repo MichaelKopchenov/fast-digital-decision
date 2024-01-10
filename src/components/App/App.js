@@ -10,19 +10,37 @@ import Gallery from '../Gallery/Gallery';
 import Team from '../Team/Team';
 import Footer from '../Footer/Footer';
 import ButtonUp from '../ButtonUp/ButtonUp';
-import Feedback from '../Feedback/Feedback';
+// import Feedback from '../Feedback/Feedback';
 import { bannerText } from '../../utils/constants';
 import './App.css';
 
 export default function App() {
   const [loading, setLoading] = useState(false);
   const [tab, setTab] = useState('main');
+  const [showButton, setShowButton] = useState(false);
+
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      if (document.documentElement.scrollTop > 1000) {
+        setShowButton(true);
+      } else {
+        setShowButton(false);
+      }
+    });
+  }, []);
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  };
 
   useEffect(() => {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 800);
+    }, 500);
   }, []);
 
   return (
@@ -30,7 +48,9 @@ export default function App() {
       {loading
         ? (<Preloader />)
         : (<>
-          <ButtonUp />
+          {showButton && (
+            <ButtonUp onClick={scrollToTop} />
+          )}
           <Header active={tab} onChange={(current) => setTab(current)} />
 
           {tab === 'main' && (
@@ -69,7 +89,7 @@ export default function App() {
               </RevealOnScroll>
             </>
           )}
-
+          {/* 
           {tab === 'feedback' && (
             <>
               <Banner {...bannerText[4]} />
@@ -78,7 +98,7 @@ export default function App() {
                 <Footer />
               </RevealOnScroll>
             </>
-          )}
+          )} */}
         </>)}
     </>
 

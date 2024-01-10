@@ -32,7 +32,7 @@ export default function Header({ onChange }) {
                         {WORK}
                     </button>
                 </li>
-                <li className='header__li'>
+                {/* <li className='header__li'>
                     <button
                         className='header__li-link'
                         active='feedback'
@@ -40,7 +40,7 @@ export default function Header({ onChange }) {
                     >
                         Обратная связь
                     </button>
-                </li>
+                </li> */}
             </ul>
         </header>
     );
