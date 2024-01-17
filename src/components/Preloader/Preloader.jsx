@@ -1,4 +1,4 @@
-import './Preloader.css';
+import "./Preloader.css";
 
 export default function Preloader() {
   return (
@@ -6,4 +6,4 @@ export default function Preloader() {
       <div className="spinner" />
     </div>
   );
-};
+}

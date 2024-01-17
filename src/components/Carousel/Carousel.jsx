@@ -1,14 +1,17 @@
-import './Carousel.css';
+import "./Carousel.css";
 
 export default function Carousel({
   title,
   text,
   site,
-  slide
+  slide,
 }) {
   return (
     <div className="carousel__block">
-      <img src={site} alt={slide} />
+      <img
+        src={site}
+        alt={slide}
+      />
       <div className="carousel__flex">
         <h3 className="carousel__title">
           {title}
@@ -19,4 +22,4 @@ export default function Carousel({
       </div>
     </div>
   );
-};
+}

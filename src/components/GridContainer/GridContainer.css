@@ -43,8 +43,8 @@
 
 @keyframes slideInRight {
     0% {
-      opacity: 0;
-      right: 100px;  
+        opacity: 0;
+        right: 100px;
     }
 
     100% {
@@ -55,8 +55,8 @@
 
 @keyframes slideInLeft {
     0% {
-      opacity: 0;
-      left: 100px;  
+        opacity: 0;
+        left: 100px;
     }
 
     100% {
@@ -67,15 +67,15 @@
 
 @keyframes slideInTop {
     0% {
-      opacity: 0;
-      top: 100px;
+        opacity: 0;
+        top: 100px;
     }
-  
+
     100% {
-      opacity: 1;
-      top: 0;
+        opacity: 1;
+        top: 0;
     }
-  }
+}
 
 @media screen and (min-width: 1025px) and (max-width: 1186px) {
     .about__container-grid-ul-li {

@@ -1,12 +1,15 @@
 import React, {
   useState,
   useEffect,
-  useRef
+  useRef,
 } from "react";
-import './RevealOnScroll.css';
+import "./RevealOnScroll.css";
 
-export default function RevealOnScroll({ children }) {
-  const [isVisible, setIsVisible] = useState(false);
+export default function RevealOnScroll({
+  children,
+}) {
+  const [isVisible, setIsVisible] =
+    useState(false);
   const ref = useRef(null);
 
   useEffect(() => {
@@ -14,27 +17,36 @@ export default function RevealOnScroll({ children }) {
       const element = ref.current;
 
       if (element) {
-        const { top } = element.getBoundingClientRect();
+        const { top } =
+          element.getBoundingClientRect();
 
         if (top < window.innerHeight) {
           setIsVisible(true);
         } else {
           setIsVisible(false);
         }
-      };
+      }
     };
 
-    window.addEventListener('scroll', onWindScroll);
-    return () => window.removeEventListener('scroll', onWindScroll);
+    window.addEventListener(
+      "scroll",
+      onWindScroll
+    );
+    return () =>
+      window.removeEventListener(
+        "scroll",
+        onWindScroll
+      );
   }, []);
 
-  const classes = isVisible
-    ? `show`
-    : `hide`;
+  const classes = isVisible ? `show` : `hide`;
 
   return (
-    <div ref={ref} className={classes}>
+    <div
+      ref={ref}
+      className={classes}
+    >
       {children}
     </div>
   );
-};
+}

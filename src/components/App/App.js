@@ -1,27 +1,33 @@
-import React, { useState, useEffect } from 'react';
-import Preloader from '../Preloader/Preloader';
-import RevealOnScroll from '../RevealOnScroll/RevealOnScroll';
-import Header from '../Header/Header';
-import Hello from '../Hello/Hello';
-import Banner from '../Banner/Banner';
-import Welcome from '../Welcome/Welcome';
-import About from '../About/About';
-import Gallery from '../Gallery/Gallery';
-import Team from '../Team/Team';
-import Footer from '../Footer/Footer';
-import ButtonUp from '../ButtonUp/ButtonUp';
+import React, {
+  useState,
+  useEffect,
+} from "react";
+import Preloader from "../Preloader/Preloader";
+import RevealOnScroll from "../RevealOnScroll/RevealOnScroll";
+import Header from "../Header/Header";
+import Hello from "../Hello/Hello";
+import Banner from "../Banner/Banner";
+import Welcome from "../Welcome/Welcome";
+import About from "../About/About";
+import Gallery from "../Gallery/Gallery";
+import Team from "../Team/Team";
+import Footer from "../Footer/Footer";
+import ButtonUp from "../ButtonUp/ButtonUp";
 // import Feedback from '../Feedback/Feedback';
-import { bannerText } from '../../utils/constants';
-import './App.css';
+import { bannerText } from "../../utils/constants";
+import "./App.css";
 
 export default function App() {
   const [loading, setLoading] = useState(false);
-  const [tab, setTab] = useState('main');
-  const [showButton, setShowButton] = useState(false);
+  const [tab, setTab] = useState("main");
+  const [showButton, setShowButton] =
+    useState(false);
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      if (document.documentElement.scrollTop > 1000) {
+      if (
+        document.documentElement.scrollTop > 1000
+      ) {
         setShowButton(true);
       } else {
         setShowButton(false);
@@ -32,7 +38,7 @@ export default function App() {
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: 'smooth'
+      behavior: "smooth",
     });
   };
 
@@ -45,15 +51,21 @@ export default function App() {
 
   return (
     <>
-      {loading
-        ? (<Preloader />)
-        : (<>
+      {loading ? (
+        <Preloader />
+      ) : (
+        <>
           {showButton && (
             <ButtonUp onClick={scrollToTop} />
           )}
-          <Header active={tab} onChange={(current) => setTab(current)} />
+          <Header
+            active={tab}
+            onChange={(current) =>
+              setTab(current)
+            }
+          />
 
-          {tab === 'main' && (
+          {tab === "main" && (
             <>
               <Hello />
               <RevealOnScroll>
@@ -70,7 +82,7 @@ export default function App() {
             </>
           )}
 
-          {tab === 'staff' && (
+          {tab === "staff" && (
             <>
               <Banner {...bannerText[2]} />
               <Team />
@@ -80,7 +92,7 @@ export default function App() {
             </>
           )}
 
-          {tab === 'works' && (
+          {tab === "works" && (
             <>
               <Banner {...bannerText[3]} />
               <Gallery />
@@ -99,8 +111,8 @@ export default function App() {
               </RevealOnScroll>
             </>
           )} */}
-        </>)}
+        </>
+      )}
     </>
-
   );
-};
+}
